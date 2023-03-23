@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/inicio_stylo.css">
 </head>
 <body>
-    
+    <main>
+        <div>
+            <h1 class="titulo">LUNES A VIERNES DE 09:00 - 19:00</h1>
+        </div>
+
+
+        <section>
+            <h2>ASISTENCIA URGENCIAS 24 HORAS</h2>
+        </section>
+
+        <section>
+            <article>
+
+            </article>
+        </section>
+
+
+    </main>
 </body>
 </html>
