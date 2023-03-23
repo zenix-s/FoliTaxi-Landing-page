@@ -1,3 +1,6 @@
+:root{
+    --color1: #ff7928;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,5 +13,5 @@ header{
 header > .logo{
     width: 25%;
     height: 50px;
-    background-color: red;
+    background-color: var(--color1);
 }
