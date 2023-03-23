@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="assets/icons/bootstrap-icons.css"> 
 </head>
 <body>
     <header>

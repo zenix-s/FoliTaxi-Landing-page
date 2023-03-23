@@ -13,18 +13,29 @@
 header{
     display: flex;
     justify-content: space-between;
-    outline: 1px solid red;
+}
+header > .logo{
+    display: flex;
+    padding: 10px 30px 0 30px;
 }
 header > .logo > img{
     width: auto;
     height: 100px;
     margin: 10px;
 }
+header > .logo::after{
+    content: " ";
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: var(--color2);
+    transform: rotate(20deg);
+    margin-left: 25px;
+}
 .navegacion{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    outline: 1px solid red;
+    align-items: flex-end;
 }
 header ul{
     display: flex;
@@ -36,12 +47,22 @@ header ul{
 header ul li{
     margin: 0 10px;
     padding: 10px;
-    border-radius: 5px;
+    border-bottom: 1px solid transparent;
     color: var(--color3);
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: border-bottom 0.3s ease-in-out;
 }
 header ul li a{
     text-decoration: none;
     color: var(--color3);
+}
+header ul li:hover{
+    border-bottom: 1px solid var(--color2);
+}
+
+header > .sesion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px;
 }
