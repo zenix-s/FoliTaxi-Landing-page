@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <!-- icons -->
     <link rel="stylesheet" href="assets/icons/bootstrap-icons.css"> 
 </head>
@@ -32,7 +33,7 @@
     </header>
 
     <footer>
-        <div class="footer">
+        <div class="footer_container">
             <div class="logo">
                 <img src="assets/img/logo.png" alt="logo">
             </div>
@@ -46,6 +47,14 @@
                     <li><a href="index.php"><i class="bi bi-tiktok"></i></a></li>
                 </ul>
             </div>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="index.php">Mecanica</a></li>
+                <li><a href="index.php">Reservas</a></li>
+                <li><a href="index.php">asesoria</a></li>
+            </ul>
         </div>
     </footer>
 </body>
