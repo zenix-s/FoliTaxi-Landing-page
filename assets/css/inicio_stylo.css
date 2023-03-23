@@ -10,11 +10,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-image: url(../img/taxiprueba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 main > .primeraSeccion{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../img/taxiprueba.jpg);
     height: 100vh;
     background-size: cover;
 }

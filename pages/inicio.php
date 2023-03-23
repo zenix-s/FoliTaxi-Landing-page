@@ -1,3 +1,9 @@
+<?php
+
+include_once '../includes/components.php';
+$componentes = new componentes();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/inicio_stylo.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
 </head>
 <body>
+    <?php
+        echo $componentes->header();
+    ?>
     <main>
         <section class="primeraSeccion">
             <div class="textoUno">
