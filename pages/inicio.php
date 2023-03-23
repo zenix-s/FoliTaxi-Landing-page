@@ -9,13 +9,13 @@
 </head>
 <body>
     <main>
-        <section>
-            <h1></h1>
-        </section>
+        <div>
+            <h1 class="titulo">LUNES A VIERNES DE 09:00 - 19:00</h1>
+        </div>
 
 
         <section>
-            <h2></h2>
+            <h2>ASISTENCIA URGENCIAS 24 HORAS</h2>
         </section>
 
         <section>
