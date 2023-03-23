@@ -30,5 +30,23 @@
             </ul>
         </div>
     </header>
+
+    <footer>
+        <div class="footer">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="logo">
+            </div>
+            <div class="redes">
+                <ul>
+                    <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="index.php"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="index.php"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="index.php"><i class="bi bi-youtube"></i></a></li>
+                    <li><a href="index.php"><i class="bi bi-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
