@@ -25,13 +25,16 @@ main > .primeraSeccion{
 main > .primeraSeccion > .textoUno{
     height: 15%;
     width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 1%;
     text-align: center;
     background: #f2f2f2a6;
     background-size: contain;
-    border-radius: 25px;
+    border-radius: 15px;
     
 }
-main > .primeraSeccion > .textoUno > .titulo{
+main > .primeraSeccion > .textoUno > .horario{
     color: #ff7928;
     
 }

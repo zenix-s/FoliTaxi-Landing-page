@@ -19,13 +19,31 @@ $componentes = new componentes();
         echo $componentes->header();
     ?>
     <main>
+        <div class="container">
+            <caption class="sliderCaption">
+                <caption class="headCaption">
+                    <h1>Prueba H1</h1>
+                </caption>
+                <caption class="subheadCaption">
+                    <span>Prueba SPAN</span>
+                </caption>
+            </caption>
+            
+
+        </div>
+
+
+
+
+
+        <!--
         <section class="primeraSeccion">
             <div class="textoUno">
-                <h1 class="titulo">LUNES A VIERNES DE 09:00 - 19:00</h1>    
-                <h2>ASISTENCIA URGENCIAS 24 HORAS</h2>
+                <h5 class="horario">LUNES A VIERNES DE 09:00 - 19:00</h5>    
+                <h6>ASISTENCIA URGENCIAS 24 HORAS</h6>
             </div>
         </section>
-
+        -->
 
     </main>
 </body>
