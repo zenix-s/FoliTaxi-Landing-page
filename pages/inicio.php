@@ -19,18 +19,18 @@ $componentes = new componentes();
         echo $componentes->header();
     ?>
     <main>
-        <div class="container">
-            <caption class="sliderCaption">
+        <section class="container">
+            <div class="sliderCaption">
                 <caption class="headCaption">
                     <h1>Prueba H1</h1>
                 </caption>
                 <caption class="subheadCaption">
                     <span>Prueba SPAN</span>
                 </caption>
-            </caption>
+            </div>
             
 
-        </div>
+        </section>
 
 
 
