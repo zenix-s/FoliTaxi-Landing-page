@@ -13,37 +13,46 @@ $componentes = new componentes();
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/inicio_stylo.css">
     <link rel="stylesheet" href="../assets/css/header.css">
+    <script src="../assets/js/inicio_script.js"></script>
 </head>
 <body>
     <?php
         echo $componentes->header();
     ?>
     <main>
-        <section class="container">
-            <div class="sliderCaption">
-                <caption class="headCaption">
-                    <h1>Prueba H1</h1>
-                </caption>
-                <caption class="subheadCaption">
-                    <span>Prueba SPAN</span>
-                </caption>
-            </div>
+        <section class="containerSlider">
+
+            <div class="sliderWrapper" id="sliderWrapper">
             
-
-        </section>
-
-
-
-
-
-        <!--
-        <section class="primeraSeccion">
-            <div class="textoUno">
-                <h5 class="horario">LUNES A VIERNES DE 09:00 - 19:00</h5>    
-                <h6>ASISTENCIA URGENCIAS 24 HORAS</h6>
+                <div class="sliderCaption">
+                    <div class="sliderHead">
+                        <h1 class="title">Horario</h1>
+                        <span class="subtitle">LUNES A VIERNES DE 09:00 - 19:00</span>
+                    </div>                                    
+                    <img class="sliderImg" src="../assets/img/sliderPrueba1.png" alt="slider1">
+                </div>
+                <div class="sliderCaption">
+                    <div class="sliderHead">
+                        <h1 class="title">Servicio</h1>
+                        <span class="subtitle">ASISTENCIA URGENCIAS 24 HORAS</span>
+                    </div>                
+                    <img class="sliderImg" src="../assets/img/sliderPrueba2.png" alt="slider2">
+                </div>
+                <div class="sliderCaption">
+                    <div class="sliderHead">
+                        <h1 class="title">Taller</h1>
+                        <span class="subtitle">Reparador autorizado TAXI de Madrid. SIN CUOTA DE MANTENIMIENTO</span>
+                    </div>                        
+                    <img class="sliderImg" src="../assets/img/sliderPrueba3.png" alt="slider3">
+                </div>                              
             </div>
+            <div class="btn sliderNext" id="btnNext">></div>
+            <div class="btn sliderPrev" id="btnPrev"><</div>
+            
         </section>
-        -->
+        <script src="..//assets/js/inicio_script.js"></script>
+
+
 
     </main>
 </body>
