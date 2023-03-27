@@ -2,6 +2,8 @@
 
 class componentes
 {
+    // Función encargada de generar el header de la página
+
     function header()
     {
         return '
