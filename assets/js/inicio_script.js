@@ -35,7 +35,12 @@ btnPrev.addEventListener('click',function(){
     Prev();
 })
 
-/*
 setInterval(function(){
     Next();
-},5000);*/
+},5000);
+
+
+$(".btn").click(function(){
+    $(this).addClass("animate");
+    $(this).one(function(event){});
+});

@@ -39,6 +39,21 @@ main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderImg{
     height: 90%;
     object-fit: cover;
 }
+main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #f2f2f286;
+}
+
+main > .containerSlider > .btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
 main > .containerSlider > .btn-container > .btn{
     width: 40px;
     height: 40px;
@@ -50,15 +65,12 @@ main > .containerSlider > .btn-container > .btn{
     border-radius: 50%;
     cursor: pointer;
     margin: 10px;
+
+    transition-property: background-color, transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
-main > .containerSlider > .btn-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 40%;
-}
+
 main > .containerSlider > .left-btn{
     left: 10px;
 }
@@ -68,11 +80,3 @@ main > .containerSlider > .right-btn{
 main > .containerSlider > .btn-container > .btn:hover{
     background: #ff7a28 ;
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #f2f2f286;
-}
-
-
