@@ -124,7 +124,16 @@ $componentes = new componentes();
                         </div>
                         <div class="datos-contacto-description">
                             <h3>Telefono</h3>
-                            <p>123456789</p>
+                            <p>91.141.2826</p>
+                        </div>
+                    </div>
+                    <div class="datos-contacto-item">
+                        <div class="datos-contacto-icon">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                        <div class="datos-contacto-description">
+                            <h3>Whatsapp</h3>
+                            <p>679.823.295</p>
                         </div>
                     </div>
                     <div class="datos-contacto-item">
@@ -133,7 +142,7 @@ $componentes = new componentes();
                         </div>
                         <div class="datos-contacto-description">
                             <h3>Email</h3>
-                            <p>email@gmail.com</p>
+                            <p>info@wetaximadrid.com</p>
                         </div>
                     </div>
                     <div class="datos-contacto-item">
@@ -142,7 +151,7 @@ $componentes = new componentes();
                         </div>
                         <div class="datos-contacto-description">
                             <h3>Ubicacion</h3>
-                            <p>direccion</p>
+                            <p>Isaac Jiménez, 5 28037 Madrid</p>
                         </div>
                     </div>
                 </div>
