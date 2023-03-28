@@ -70,13 +70,24 @@ main > .containerSlider > .btn-container > .btn{
     transition-duration: 0.5s;
     transition-timing-function: linear;
 }
-
 main > .containerSlider > .left-btn{
     left: 10px;
+    transform: translateX(-100%);
 }
 main > .containerSlider > .right-btn{
     right: 10px;
+    transform: translateX(100%);
 }
 main > .containerSlider > .btn-container > .btn:hover{
+    opacity: 1;
     background: #ff7a28 ;
 }
+main > .containerSlider:hover .left-btn, .containerSlider:hover .right-btn{
+    opacity: 0.5;
+    transform: translateX(0);
+}
+main > .containerSlider > .left-btn, .right-btn{
+    opacity: 0;
+    transition: 0.25s ease opacity, 0.25s ease transform;
+}
+
