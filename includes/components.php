@@ -7,25 +7,28 @@ class componentes
     function header()
     {
         return '
-            <header>
-            <div class="logo">
-                <img src="../assets/img/logo.png" alt="logo">
-            </div>
-            <div class="navegacion">
-                <ul>
-                    <li><a href="inicio.php">Inicio</a></li>
-                    <li><a href="mecanica.php">Mecanica</a></li>
-                    <li><a href="reservas.php">Reservas</a></li>
-                    <li><a href="asesoria.php">asesoria</a></li>
-                </ul>
-            </div>
-            <div class="sesion">
-                <ul>
-                    <li><a href="index.php">Iniciar Sesion</a></li>
-                    <li><a href="index.php">Registrarse</a></li>
-                </ul>
-            </div>
-            </header>
+        <header>
+        <div class="logo">
+            <img src="../assets/img/logo.png" alt="logo">
+        </div>
+        <div class="navegacion">
+            <ul>
+                <li><a href="inicio.php">Inicio</a></li>
+                <li><a href="mecanica.php">Mecanica</a></li>
+                <li><a href="reservas.php">Reservas</a></li>
+                <li><a href="asesoria.php">asesoria</a></li>
+            </ul>
+        </div>
+        <div class="sesion">
+            <ul>
+                <li><a href="index.php">Iniciar Sesion</a></li>
+                <li><a href="index.php">Registrarse</a></li>
+            </ul>
+        </div>
+        <div class="mobile-close-header">
+            <i class="bi bi-list"></i>
+        </div>
+        </header>
         ';
     }
 
