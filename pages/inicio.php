@@ -13,7 +13,6 @@ $componentes = new componentes();
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/inicio_stylo.css">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <script src="../assets/js/inicio_script.js"></script>
 </head>
 <body>
     <?php
@@ -22,8 +21,10 @@ $componentes = new componentes();
     <main>
         <section class="containerSlider">
 
+
             <div class="sliderWrapper" id="sliderWrapper">
             
+
                 <div class="sliderCaption">
                     <div class="sliderHead">
                         <h1 class="title">Horario</h1>
@@ -44,10 +45,18 @@ $componentes = new componentes();
                         <span class="subtitle">Reparador autorizado TAXI de Madrid. SIN CUOTA DE MANTENIMIENTO</span>
                     </div>                        
                     <img class="sliderImg" src="../assets/img/sliderPrueba3.png" alt="slider3">
-                </div>                              
+                </div>
+
+
             </div>
-            <div class="btn sliderNext" id="btnNext">></div>
-            <div class="btn sliderPrev" id="btnPrev"><</div>
+
+
+            <div class="btn-container left-btn">
+                <div class="btn sliderPrev" id="btnPrev"><</div>
+            </div>
+            <div class="btn-container right-btn">
+                <div class="btn sliderNext" id="btnNext">></div>
+            </div>
             
         </section>
         <script src="..//assets/js/inicio_script.js"></script>
