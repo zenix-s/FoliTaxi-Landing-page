@@ -1,3 +1,7 @@
+<?php
+    include_once '../includes/components.php';
+    $componentes = new componentes();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/mecanica_style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <title>MECÁNICA DEL AUTOMÓVIL</title>
 </head>
 <body>
+    <?php
+        echo $componentes -> Header();
+    ?>
     <h1>Bienvenido a WETAXI MADRID</h1>
     <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
     <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>

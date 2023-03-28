@@ -14,71 +14,16 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="logo">
-            <img src="assets/img/logo.png" alt="logo">
-        </div>
-        <div class="navegacion">
-            <ul>
-                <li><a href="inicio.php">Inicio</a></li>
-                <li><a href="mecanica.php">Mecanica</a></li>
-                <li><a href="reservas.php">Reservas</a></li>
-                <li><a href="asesoria.php">asesoria</a></li>
-            </ul>
-        </div>
-        <div class="sesion">
-            <ul>
-                <li><a href="index.php">Iniciar Sesion</a></li>
-                <li><a href="index.php">Registrarse</a></li>
-            </ul>
-        </div>
-        <div class="mobile-close-header">
-            <i class="bi bi-list"></i>
-        </div>
-    </header>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-subsection">
-                <div class="logo-container">
-                    <img src="assets/img/logo.png" alt="logo">
-                </div>
-                <nav class="social-networks-container">
-                    <div class="social-network-item">
-                        <a href="#">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                    </div>
-                    <div class="social-network-item">
-                        <a href="#">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                    </div>
-                    <div class="social-network-item">
-                        <a href="#">
-                            <i class="bi bi-twitter"></i>
-                        </a>
-                    </div>
-                    <div class="social-network-item">
-                        <a href="#">
-                            <i class="bi bi-youtube"></i>
-                        </a>
-                    </div>
-                    <div class="social-network-item">
-                        <a href="#">
-                            <i class="bi bi-tiktok"></i>
-                        </a>
-                    </div>
-                </nav>
-            </div>
-            <div class="footer-subsection">
-                
-            </div>
-            <div class="footer-subsection">
-
-            </div>
-        </div>
-    </footer>
+<?php
+    include_once 'includes/conexion.php';
+    $conexion = new conexion();
+    $sql = $conexion -> connect() -> prepare("SELECT * FROM conductores");
+    $sql -> execute();
+    $result = $sql -> fetchAll();
+    foreach($result as $row){
+        echo $row['dni'] . "<br>";
+    }
+?>
 </body>
 
 </html>
