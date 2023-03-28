@@ -1,3 +1,7 @@
+<?php
+    include_once '../includes/components.php';
+    $componentes = new componentes();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/mecanica_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <!-- <link rel="stylesheet" href="../assets/css/footer.css"> -->
     <title>MECÁNICA DEL AUTOMÓVIL</title>
 </head>
 <body>
+    <?php
+        echo $componentes -> Header();
+    ?>
     <div class="">
         <h1>Bienvenido a WETAXI MADRID</h1>
         <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
