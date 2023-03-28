@@ -12,50 +12,16 @@
     <link rel="stylesheet" href="assets/icons/bootstrap-icons.css"> 
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/img/logo.png" alt="logo">
-        </div>
-        <div class="navegacion">
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="index.php">Mecanica</a></li>
-                <li><a href="index.php">Reservas</a></li>
-                <li><a href="index.php">asesoria</a></li>
-            </ul>
-        </div>
-        <div class="sesion">
-            <ul>
-                <li><a href="index.php">Iniciar Sesion</a></li>
-                <li><a href="index.php">Registrarse</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="item">
+        <div class="header-item">
+            <div class="icon-title">
 
-    <footer>
-        <div class="footer_container">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="logo">
             </div>
-            <div class="redes">
-                <ul>
-                    <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="index.php"><i class="bi bi-instagram"></i></a></li>
-                    <li><a href="index.php"><i class="bi bi-twitter"></i></a></li>
-                    <li><a href="index.php"><i class="bi bi-youtube"></i></a></li>
-                    <li><a href="index.php"><i class="bi bi-tiktok"></i></a></li>
-                </ul>
+            <div class="svg">
+                
             </div>
         </div>
-        <div class="nav_options">
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="index.php">Mecanica</a></li>
-                <li><a href="index.php">Reservas</a></li>
-                <li><a href="index.php">asesoria</a></li>
-            </ul>
-        </div>
-    </footer>
+        <div class="body-item"></div>
+    </div>
 </body>
 </html>

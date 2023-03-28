@@ -20,326 +20,297 @@
     
 
     <!--menu acordeon-->
-    <div class="accordion ">
-        <div class="item open">
-            <!--icono rueda es muy pequeño y se ve mal, en busca de otro tire_icon_153938.svg -->
-            <img class="icon"  src="../assets/iconos/tyre_86126.svg" alt="Mi icono">
-            
-            <p class="text">Neumáticos</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
+    <div class="acordeon">
+        <div class="item ">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon"  src="../assets/iconos/tyre_86126.svg" alt="Mi icono">
+                    <p class="text">Neumáticos</p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
             </div>
-            <!--INFORMACION div para cada uno IMG+TESTO+BOTONES -->
-            <div class="hidden-box">
+            <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item " style="display: none;">
                 <div class="item-contenido">
                     <div class="img-menu-acordeon">
                         <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
                     </div>
-                
                     <div class="texto-menu-acordeon">
                         <p>
                         En WETAXI MADRID, contamos con un equipo de profesionales que se encargará de revisar y cambiar tus frenos para garantizarte una conducción segura y sin preocupaciones.
                         </p>
-                        <ul>
-                            <li>TEXTO MACANICA</li>
-                            
-                        </ul>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="item ">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon" src="../assets/iconos/iconfinder-wiper-clean-service-labor-4622491_122432.svg" alt="Mi icono">
+                    <p class="text">Limpieza </p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
+            </div>
+             <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item"  style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="limpieza-exterior.jpg" alt="Limpieza exterior">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                        <p>
+                        Con nuestro servicio de limpieza exterior, te garantizamos que tu vehículo quedará como el primer día. Limpieza a fondo de carrocería, llantas y cristales para que brille con luz propia.
+                        </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>    
+               
+               
+            </div>
+        </div>
+
+        <div class="item ">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon" src="../assets/iconos/voltmeter_electricity_tool_icon_221330.svg" alt="Mi icono">
+                    <p class="text">Electricidad</p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
+            </div>
+             <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item"  style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="electricidad.jpg" alt="Electricidad">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                        <p>
+                        ¿Tienes algún problema eléctrico en tu vehículo? En WETAXI MADRID, te ofrecemos un servicio integral de reparación de problemas eléctricos para que no te quedes nunca tirado.
+                        </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>    
+               
+               
+            </div>
+        </div>   
+
+        <div class="item">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon" src="../assets/iconos/screwdriver_wrench_icon_198514.svg" alt="Mi icono">
+                    <p class="text">Mantenimiento y revisión</p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
+            </div>
+             <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item"  style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="mantenimineto-integral2.jpg" alt="Mantenimiento y revisión">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                    <p>
+                    En WETAXI MADRID, realizamos todo tipo de mantenimiento y revisión de vehículos para que siempre puedas conducir con total seguridad y confianza en tu coche.
+                    </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
                     </div>
                 </div>
-                <div class="botones-menu-acordeon" >
-                    <button>saber mas </button>
+            </div>
+        </div>   
+
+        <div class="item ">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon" src="../assets/iconos/oil_icon_135343.svg" alt="Mi icono">
+                    <p class="text">Cambio de aceite y filtros</p>
                 </div>
-                
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
             </div>
-        </div>  
-        
-        <div class="item ">
-            <img class="icon" src="../assets/iconos/cleaning_detergent_product_icon_153278.svg" alt="Mi icono">
-            <p class="text">Limpieza interior</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            <div class="hidden-box">
-            <img src="limpieza-coches-03.jpg" alt="Limpieza interior">
-            <p>
-            Nuestro servicio de limpieza interior incluye aspirado y limpieza de tapicería, paneles y cristales para que tu vehículo esté siempre impecable por dentro.
-            </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
-                
-            </div>
-           
-        </div>
-
-        <div class="item ">
-            <img class="icon" src="../assets/iconos/iconfinder-wiper-clean-service-labor-4622491_122432.svg" alt="Mi icono">
-            <p class="text">Limpieza exterior</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            
-            <div class="hidden-box">
-                <img src="limpieza-exterior.jpg" alt="Limpieza exterior">
-                <p>
-                Con nuestro servicio de limpieza exterior, te garantizamos que tu vehículo quedará como el primer día. Limpieza a fondo de carrocería, llantas y cristales para que brille con luz propia.
-                </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
+             <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item"  style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="aceiite-filtro.jpg" alt="Cambio de aceite y filtros">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                        <p>
+                        Un buen mantenimiento del motor es imprescindible para el correcto funcionamiento de tu vehículo. En WETAXI MADRID, te ofrecemos el servicio de cambio de aceite y filtros para mantener tu coche en perfectas condiciones
+                        </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>    
+               
                
             </div>
         </div>   
 
         <div class="item ">
-            <img class="icon" src="../assets/iconos/brakes_icon_177283.svg" alt="Mi icono">
-            <p class="text">Frenos</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon" src="../assets/iconos/fuel_lpg_station_icon_180145.svg" alt="Mi icono">
+                    <p class="text">Transformación a GLP</p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
             </div>
-            
-            <div class="hidden-box">
-                <img src="frenos.jpg" alt="Frenos">
-                <p>
-                En WETAXI MADRID, contamos con un equipo de profesionales que se encargará de revisar y cambiar tus frenos para garantizarte una conducción segura y sin preocupaciones.
-                </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
+             <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item"  style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="glp.jpg" alt="Transformación a GLP">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                        <p>
+                        En WETAXI MADRID tenemos técnicos profesionales que pueden adaptar vehículos de Gasolina a Autogas GLP que incorporen motores de INYECCIÓN INDIRECTA o de INYECCIÓN DIRECTA, tanto para uso particular como profesional que cumplan con los parámetros y requisitos que la normativa española exige para permitir la transformación de vehículos propulsados por Gasolina a Autogas GLP.
+                        </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>    
+               
                
             </div>
-        </div>   
-        <div class="item ">
-            <img class="icon" src="../assets/iconos/car_icon_145832.svg" alt="Mi icono">
-            <p class="text">Pulido de faros</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            <div class="hidden-box">
-                <img src="pulido-faros.jpg" alt="Pulido de faros">
-                <p>
-                ¿Tus faros han perdido transparencia? En WETAXI MADRID, nos encargamos de restaurarlos para que tu vehículo vuelva a lucir como nuevo y puedas conducir con total seguridad.
-                </p>
-                    <ul>
-                        <li>TEXTO MACANICA</li>
-                        
-                    </ul>
-                    
-            </div>
-           
-        </div>
-        
-       
-        <div class="item ">
-            
-            <img class="icon" src="../assets/iconos/voltmeter_electricity_tool_icon_221330.svg" alt="Mi icono">
-            <p class="text">Electricidad</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            <div class="hidden-box">
-                <img src="electricidad.jpg" alt="Electricidad">
-                <p>
-                ¿Tienes algún problema eléctrico en tu vehículo? En WETAXI MADRID, te ofrecemos un servicio integral de reparación de problemas eléctricos para que no te quedes nunca tirado.
-                </p>
-                    <ul>
-                        <li>TEXTO MACANICA</li>
-                        
-                    </ul>
-                    
-            </div>
-        </div>   
-        <div class="item ">
-            <img class="icon" src="../assets/iconos/screwdriver_wrench_icon_198514.svg" alt="Mi icono">
-            <p class="text">Mantenimiento y revisión</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            
-            <div class="hidden-box">
-            <img src="mantenimineto-integral2.jpg" alt="Mantenimiento y revisión">
-                <p>
-                En WETAXI MADRID, realizamos todo tipo de mantenimiento y revisión de vehículos para que siempre puedas conducir con total seguridad y confianza en tu coche.
-                </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
-            
-            </div>
-            
-        </div>   
+        </div> 
+    </div> <!--Fin  menu acordeon-->
 
-        <div class="item ">
-            
-            <img class="icon" src="../assets/iconos/oil_icon_135343.svg" alt="Mi icono">
-            <p class="text">Cambio de aceite y filtros</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            <div class="hidden-box">
-            <img src="aceiite-filtro.jpg" alt="Cambio de aceite y filtros">
-                <p>
-                Un buen mantenimiento del motor es imprescindible para el correcto funcionamiento de tu vehículo. En WETAXI MADRID, te ofrecemos el servicio de cambio de aceite y filtros para mantener tu coche en perfectas condiciones
-                </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
-                    
-            </div>
-        </div>
-        <div class="item ">
-            
-        <img class="icon" src="../assets/iconos/fuel_lpg_station_icon_180145.svg" alt="Mi icono">
-            <p class="text">Transformación a GLP</p>
-            <div class="svg-container">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                </svg>
-            </div>
-            <div class="hidden-box">
-            <img src="glp.jpg" alt="Transformación a GLP">
-                <p>
-                En WETAXI MADRID tenemos técnicos profesionales que pueden adaptar vehículos de Gasolina a Autogas GLP que incorporen motores de INYECCIÓN INDIRECTA o de INYECCIÓN DIRECTA, tanto para uso particular como profesional que cumplan con los parámetros y requisitos que la normativa española exige para permitir la transformación de vehículos propulsados por Gasolina a Autogas GLP.
-                </p>
-                <ul>
-                    <li>TEXTO MACANICA</li>
-                    
-                </ul>
-                    
-            </div>
-        </div>
-    </div>
+    <script>
+        // Obtener todos los elementos con la clase header-item
+        const headerItems = document.querySelectorAll('.header-item');
+
+        // Iterar sobre cada elemento y agregar un evento de click
+        headerItems.forEach((headerItem) => {
+        headerItem.addEventListener('click', () => {
+            // Obtener el elemento padre con la clase item
+            const item = headerItem.parentNode;
+
+            // Obtener el body-item correspondiente
+            const bodyItem = item.querySelector('.body-item');
+
+            // Alternar la clase open en el elemento item
+            item.classList.toggle('open');
+
+            // Mostrar u ocultar el body-item utilizando la propiedad display
+            if (bodyItem.style.display === 'block') {
+            bodyItem.style.display = 'none';
+            } else {
+            bodyItem.style.display = 'block';
+            }
+        });
+        });
+
+    </script>
 
     
-    <script>
-        const items = document.querySelectorAll(".item");
-
-        for (let i = 0; i < items.length; i++) {
-        items[i].addEventListener("click", function () {
-            this.classList.toggle("open");
-        });
-        }
-    </script>
+    
     
 </body>
 </html>
