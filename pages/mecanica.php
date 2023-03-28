@@ -1,7 +1,3 @@
-<?php
-    include_once '../includes/components.php';
-    $componentes = new componentes();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,20 +9,57 @@
     <title>MECÁNICA DEL AUTOMÓVIL</title>
 </head>
 <body>
-    <h1>Bienvenido a WETAXI MADRID</h1>
-    <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
-    <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
-    <p>En nuestro taller experto para todas las marcas de coches, ofrecemos un mantenimiento y reparaciones asequibles y de máxima calidad.</p>
-    <p>Nuestro personal está en formación continua para brindarle el mejor asesoramiento experto en el taller.</p>
-    <p>Además, ofrecemos servicios como:</p>
-<!--Añadir el evento del click (al leer mas ) y quitar el boton -->
-    <section class="toggle-section">
-        <div class="toggle-container">
-            <h2>Neumáticos</h2>
-            <button class="toggle-button">Leer más</button>
-            <div class="toggle-content">
-            <img src="neumaticos.jpg" alt="Neumáticos">
-            <p>En WETAXI MADRID, te ofrecemos una amplia selección de neumáticos de alta calidad para todo tipo de vehículos, siempre al mejor precio.</p>
+    <div class="">
+        <h1>Bienvenido a WETAXI MADRID</h1>
+        <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
+        <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
+        <p>En nuestro taller experto para todas las marcas de coches, ofrecemos un mantenimiento y reparaciones asequibles y de máxima calidad.</p>
+        <p>Nuestro personal está en formación continua para brindarle el mejor asesoramiento experto en el taller.</p>
+        <p>Además, ofrecemos servicios como:</p>
+    </div>
+    
+
+    <!--menu acordeon-->
+    <div class="acordeon">
+        <div class="item ">
+            <div class="header-item">
+                <div class="icon-title">
+                    <img class="icon"  src="../assets/iconos/tyre_86126.svg" alt="Mi icono">
+                    <p class="text">Neumáticos</p>
+                </div>
+                <div class="svg">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                        >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            />
+                    </svg>
+                </div>
+            </div>
+            <!--INFORMACION div para cada uno IMG+TEXTO+BOTONES -->
+            <div class="body-item " style="display: none;">
+                <div class="item-contenido">
+                    <div class="img-menu-acordeon">
+                        <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
+                    </div>
+                    <div class="texto-menu-acordeon">
+                        <p>
+                        En WETAXI MADRID, contamos con un equipo de profesionales que se encargará de revisar y cambiar tus frenos para garantizarte una conducción segura y sin preocupaciones.
+                        </p>
+                        <div class="botones-menu-acordeon" >
+                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
+                            <button > Saber más  </button>
+                        </div>
+                    </div>
+                </div>                
             </div>
         </div>
 
