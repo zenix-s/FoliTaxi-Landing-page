@@ -39,13 +39,42 @@ main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderImg{
     height: 90%;
     object-fit: cover;
 }
+
+
+/*-------TEXTOS-------*/
 main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #f2f2f286;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    background: #ffffffd8;
+    border-radius: 5px;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 500ms ease opacity, 500ms ease transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .head{
+    font-size: 20px;
+    color:#010101;
+    transition: 500ms ease-in all;
+}
+main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .subHead{
+    font-size: 15px;
+    font-weight: bold;
+    color:#d21b24;
+    display: block;
 }
 
+main > .containerSlider:hover > .sliderWrapper > .sliderCaption > .sliderHead/*.effectHead*/{
+    transition-delay: 500ms;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/*-------BOTONES-------*/
 main > .containerSlider > .btn-container{
     display: flex;
     flex-direction: column;
@@ -65,7 +94,6 @@ main > .containerSlider > .btn-container > .btn{
     border-radius: 50%;
     cursor: pointer;
     margin: 10px;
-
     transition-property: background-color, transform;
     transition-duration: 0.5s;
     transition-timing-function: linear;

@@ -35,7 +35,7 @@ $componentes = new componentes();
                 <div class="sliderCaption">
                     <div class="sliderHead">
                         <div class="head">
-                            <h1 class="title">Servicio</h1>
+                            <h2 class="title">Servicio</h2>
                         </div>
                         <div class="subHead">
                             <span class="subtitle">ASISTENCIA URGENCIAS 24 HORAS</span>
@@ -46,7 +46,7 @@ $componentes = new componentes();
                 <div class="sliderCaption">
                     <div class="sliderHead">
                     <div class="head">
-                            <h1 class="title">Taller</h1>
+                            <h3 class="title">Taller</h3>
                         </div>
                         <div class="subHead">
                             <span class="subtitle">Reparador autorizado TAXI de Madrid. SIN CUOTA DE MANTENIMIENTO</span>
