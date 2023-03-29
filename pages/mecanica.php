@@ -9,15 +9,17 @@
     <title>MECÁNICA DEL AUTOMÓVIL</title>
 </head>
 <body>
-    <div class="">
-        <h1>Bienvenido a WETAXI MADRID</h1>
-        <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
-        <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
-        <p>En nuestro taller experto para todas las marcas de coches, ofrecemos un mantenimiento y reparaciones asequibles y de máxima calidad.</p>
-        <p>Nuestro personal está en formación continua para brindarle el mejor asesoramiento experto en el taller.</p>
-        <p>Además, ofrecemos servicios como:</p>
+        <!-- Mecanica -->
+    <div class="header-image">
+        <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
+        <div class="header-text">
+            <h1>MECÁNICA DEL AUTOMÓVIL</h1>
+            <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
+            <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
+            <p>Además, ofrecemos servicios como:</p>
+            <button>Servicios</button>
+        </div>
     </div>
-    
 
     <!--menu acordeon-->
     <div class="acordeon">
