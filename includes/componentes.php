@@ -32,6 +32,9 @@ class componentes
         </header>
         ';
     }
+    //FUNCION ENCARGADA DE CREAR EL ENCABEZADO EN MECANICA Y ASESORIA 
+
+
 
     // Función encargada de generar el footer de la página
     function footer()
