@@ -67,4 +67,17 @@ class componentes
         </footer>
         ';
     }
+    function subheader($title, $description, $image)
+    {
+        return '
+        <div class="header-image">
+        <img src=" '. $image .' " alt="Neumáticos">
+        <div class="header-text">  
+            <h1>'. $title .'</h1>
+            <p> ' . $description .  ' </p>
+            <button>Servicios</button>
+        </div>
+        </div>
+        ';
+    }
 }
