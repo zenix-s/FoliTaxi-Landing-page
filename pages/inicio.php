@@ -20,7 +20,7 @@ $componentes = new componentes();
 
 <body>
     <?php
-        echo $componentes->header();
+    echo $componentes->header();
     ?>
     <main>
         <section class="slider">
@@ -85,6 +85,17 @@ $componentes = new componentes();
                 </div>
             </div>
 
+        </section>
+        <section class="freenow-section">
+            <div class="freenow-container">
+                <div class="freenow-img">
+                    <img src="../assets/img/freenow-inicio2.png" alt="freenow">
+                </div>
+                <div class="freenow-description">
+                    <p>WeTaxi Madrid y Free Now se han unido en un acuerdo comercial para ofrecer servicios de mantenimiento y reparación de vehículos a precios inigualables para los taxistas de Madrid. Los conductores de la flota de Free Now que hayan alcanzado la categoría "Bronce" o superior pueden disfrutar de importantes descuentos en servicios de mantenimiento. <br>Además, los conductores con la misma categoría también obtienen descuentos en servicios de reparación de taxímetros y luminosos. También se otorgará un premio a los 50 mejores taxistas de la flota Free Now. ¡Reserva el tuyo ahora!</p>
+                    <a href="#">Descargar</a>
+                </div>
+            </div>
         </section>
         <section class="formulario-contacto-section">
             <!-- datos del formulario nombre apellidos email telefono y mensaje -->

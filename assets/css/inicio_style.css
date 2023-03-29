@@ -135,6 +135,11 @@ main > .primeraSeccion > .textoUno > .titulo{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+/* seccion freenow */
+
+
+
 /* Formulario contacto */
 
 .formulario-contacto-section{
@@ -251,3 +256,4 @@ main > .primeraSeccion > .textoUno > .titulo{
     border-radius: 50%;
     font-size: 1.3em;
 }
+
