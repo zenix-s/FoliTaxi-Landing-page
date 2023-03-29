@@ -15,14 +15,9 @@
 
 <body>
 <?php
-    include_once 'includes/conexion.php';
-    $conexion = new conexion();
-    $sql = $conexion -> connect() -> prepare("SELECT * FROM conductores");
-    $sql -> execute();
-    $result = $sql -> fetchAll();
-    foreach($result as $row){
-        echo $row['dni'] . "<br>";
-    }
+    include_once 'includes/mailing.php';
+    $mailing = new mailing();
+    $mailing->sendMail();
 ?>
 </body>
 
