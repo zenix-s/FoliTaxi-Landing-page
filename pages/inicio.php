@@ -23,10 +23,49 @@ $componentes = new componentes();
     echo $componentes->header();
     ?>
     <main>
-        <section class="slider">
-
+        <section class="containerSlider">
+            <div class="sliderWrapper" id="sliderWrapper">
+                <div class="sliderCaption" id="1">
+                    <div class="sliderHead">
+                        <div class="head">
+                            <h1 class="title">Horario</h1>
+                        </div>
+                        <div class="subHead">
+                            <span class="subtitle">LUNES A VIERNES DE 09:00 - 19:00</span>
+                        </div>
+                    </div>                                    
+                    <img class="sliderImg" src="../assets/img/sliderPrueba1.png" alt="slider1">
+                </div>
+                <div class="sliderCaption" id="2">
+                    <div class="sliderHead">
+                        <div class="head">
+                            <h2 class="title">Servicio</h2>
+                        </div>
+                        <div class="subHead">
+                            <span class="subtitle">ASISTENCIA URGENCIAS 24 HORAS</span>
+                        </div>
+                    </div>                
+                    <img class="sliderImg" src="../assets/img/sliderPrueba2.png" alt="slider2">
+                </div>
+                <div class="sliderCaption" id="3">
+                    <div class="sliderHead">
+                    <div class="head">
+                            <h3 class="title">Taller</h3>
+                        </div>
+                        <div class="subHead">
+                            <span class="subtitle">Reparador autorizado TAXI de Madrid. SIN CUOTA DE MANTENIMIENTO</span>
+                        </div>
+                    </div>                        
+                    <img class="sliderImg" src="../assets/img/sliderPrueba3.png" alt="slider3">
+                </div>
+            </div>
+            <div class="btn-container left-btn">
+                <div class="btn sliderPrev" id="btnPrev"><</div>
+            </div>
+            <div class="btn-container right-btn">
+                <div class="btn sliderNext" id="btnNext">></div>
+            </div>
         </section>
-
         <section class="servicios-section">
             <h2>Servicios</h2>
             <div class="services-container">
@@ -167,10 +206,13 @@ $componentes = new componentes();
                     </div>
                 </div>
         </section>
-        <?php
+        
+
+    </main>
+    <?php
         echo $componentes->footer();
         ?>
-    </main>
+    <script src="../assets/js/inicio_script.js"></script>
 </body>
 
 </html>
