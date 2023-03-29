@@ -67,7 +67,7 @@ class componentes
         </footer>
         ';
     }
-    function subheader($title, $description, $image)
+    function subheader($title, $description,$description2,$description3, $image)
     {
         return '
         <div class="header-image">
@@ -75,6 +75,8 @@ class componentes
         <div class="header-text">  
             <h1>'. $title .'</h1>
             <p> ' . $description .  ' </p>
+            <p> ' . $description2 .  ' </p>
+            <p> ' . $description3 .  ' </p>
             <button>Servicios</button>
         </div>
         </div>

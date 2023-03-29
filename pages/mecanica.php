@@ -19,7 +19,7 @@
     <?php
         echo $componentes -> Header();
     ?>
-        <!-- Mecanica -->
+        <!-- Mecanica 
     <div class="header-image">
         <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
         <div class="header-text">  
@@ -29,10 +29,12 @@
             <p>Además, ofrecemos servicios como:</p>
             <button>Servicios</button>
         </div>
-    </div>
+    </div>-->
 
     <?php
-        echo $componentes ->subheader("Mecanica2","hola que tal", "../assets/img/neumaticos.jpg");
+        echo $componentes ->subheader("MECÁNICA DEL AUTOMÓVIL","Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
+        "Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.",
+        "Además, ofrecemos servicios como: ", "../assets/img/neumaticos.jpg");
     ?>
 
     <!--menu acordeon-->

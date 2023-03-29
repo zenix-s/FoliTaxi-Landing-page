@@ -9,15 +9,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/subheader.css">
     <link rel="stylesheet" href="../assets/css/asesoria-style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>ASESORÍA</title>
 </head>
 <body>
     <?php
         echo $componentes->header();
     ?>
-        <!-- asesoria -->
+        <!-- asesoria 
     <div class="header-image">
         <img src="../assets/img/asesoria.jpg" alt="Asesoria">
         <div class="header-text">  
@@ -27,7 +28,12 @@
             <p>Departamento labora, fiscal y administarivo, para cubrir todas las necesidades como autónomo o empresa.</p>
             <button>Servicios</button>
         </div>
-    </div>
+    </div>-->
+    <?php
+        echo $componentes ->subheader("ASESORÍA","¿Necesitas ayuda con tu licencia de Auto- taxi?",
+        "En WETAXI MADRID disponemos de un departamento especializado para que no tengas que preocuparte de nada. ",
+        "Departamento labora, fiscal y administarivo, para cubrir todas las necesidades como autónomo o empresa. ", "../assets/img/asesoria.jpg");
+    ?>
 
     <div class="row">
         <div class="column">
@@ -79,7 +85,6 @@
                         <i class="bi bi-clipboard-check"></i>
                     </div>
                 </div>
-
                 <h3>Trámites Administrativos:</h3>
                 <ul>
                     <li>Matriculaciones, transferencias, sustituciones y tarjetas de transporte de vehículos</li>
