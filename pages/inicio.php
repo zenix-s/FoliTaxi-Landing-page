@@ -25,7 +25,7 @@ $componentes = new componentes();
     <main>
         <section class="containerSlider">
             <div class="sliderWrapper" id="sliderWrapper">
-                <div class="sliderCaption">
+                <div class="sliderCaption" id="1">
                     <div class="sliderHead">
                         <div class="head">
                             <h1 class="title">Horario</h1>
@@ -36,7 +36,7 @@ $componentes = new componentes();
                     </div>                                    
                     <img class="sliderImg" src="../assets/img/sliderPrueba1.png" alt="slider1">
                 </div>
-                <div class="sliderCaption">
+                <div class="sliderCaption" id="2">
                     <div class="sliderHead">
                         <div class="head">
                             <h2 class="title">Servicio</h2>
@@ -47,7 +47,7 @@ $componentes = new componentes();
                     </div>                
                     <img class="sliderImg" src="../assets/img/sliderPrueba2.png" alt="slider2">
                 </div>
-                <div class="sliderCaption">
+                <div class="sliderCaption" id="3">
                     <div class="sliderHead">
                     <div class="head">
                             <h3 class="title">Taller</h3>
@@ -212,6 +212,7 @@ $componentes = new componentes();
     <?php
         echo $componentes->footer();
         ?>
+    <script src="../assets/js/inicio_script.js"></script>
 </body>
 
 </html>
