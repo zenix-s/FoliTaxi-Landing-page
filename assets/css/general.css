@@ -1,5 +1,8 @@
 :root{
     --color1: #ff7928;
+    --color2: #d21b24;
+    --color3: #010101;
+    --color4: #f2f2f2;
 }
 *{
     margin: 0;
