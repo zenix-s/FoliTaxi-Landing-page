@@ -12,7 +12,7 @@
         <!-- Mecanica -->
     <div class="header-image">
         <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
-        <div class="header-text">
+        <div class="header-text">  
             <h1>MECÁNICA DEL AUTOMÓVIL</h1>
             <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
             <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>

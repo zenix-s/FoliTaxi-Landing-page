@@ -23,11 +23,18 @@ body {
 /*encabezado de macanica
 filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 */
+.header-image{
+ 
+  
+  position: relative;
+  margin: auto;
 
+}
 .header-image > img {
   max-width: 100%;
   height: 50%;
   filter: brightness(0.4);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
 }
 
 /* Place text in the middle of the image */
@@ -71,6 +78,7 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  
 }
 .img-menu-acordeon{
   height: 250px;
@@ -85,6 +93,7 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 
 .item {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .header-item {
