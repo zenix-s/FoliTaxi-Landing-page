@@ -17,6 +17,7 @@ class componentes
                 <li><a href="mecanica.php">Mecanica</a></li>
                 <li><a href="reservas.php">Reservas</a></li>
                 <li><a href="asesoria.php">asesoria</a></li>
+                <li><a href="conductores.php">conductores</a></li>
             </ul>
         </div>
         <div class="sesion">

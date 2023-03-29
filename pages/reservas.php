@@ -1,5 +1,5 @@
 <?php
-    require_once '../includes/components.php';
+    require_once '../includes/componentes.php';
     $componentes = new componentes();
 ?>
 <!DOCTYPE html>

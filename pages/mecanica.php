@@ -1,5 +1,5 @@
 <?php
-    include_once '../includes/components.php';
+    include_once '../includes/componentes.php';
     $componentes = new componentes();
 ?>
 <!DOCTYPE html>
