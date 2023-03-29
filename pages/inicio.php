@@ -125,17 +125,41 @@ $componentes = new componentes();
             </div>
 
         </section>
+
+
         <section class="freenow-section">
             <div class="freenow-container">
                 <div class="freenow-img">
                     <img src="../assets/img/freenow-inicio2.png" alt="freenow">
                 </div>
                 <div class="freenow-description">
-                    <p>WeTaxi Madrid y Free Now se han unido en un acuerdo comercial para ofrecer servicios de mantenimiento y reparación de vehículos a precios inigualables para los taxistas de Madrid. Los conductores de la flota de Free Now que hayan alcanzado la categoría "Bronce" o superior pueden disfrutar de importantes descuentos en servicios de mantenimiento. <br>Además, los conductores con la misma categoría también obtienen descuentos en servicios de reparación de taxímetros y luminosos. También se otorgará un premio a los 50 mejores taxistas de la flota Free Now. ¡Reserva el tuyo ahora!</p>
-                    <a href="#">Descargar</a>
+                    <p>WeTaxi Madrid y Free Now ofrecen servicios de mantenimiento y reparación de vehículos con descuentos para taxistas 
+                        de Madrid de Free Now con categoría "Bronce" o superior.
+                    <br>Además, los conductores pueden obtener descuentos en reparación de taxímetros y luminosos, y se premiará a los 50 
+                        mejores taxistas de la flota Free Now.</p>
+                    <div class="freenow-link">
+                        <a href="https://play.google.com/store/apps/details?id=taxi.android.client&hl=es&gl=US" class="freenow-link-btn">
+                            <i class="bi bi-google-play"></i>
+                            <div class="freenow-link-text">
+                                <span>Descargar en</span>
+                                <h5>App Store</h5>
+                            </div>
+                        </a>
+                        <a href="https://apps.apple.com/us/app/free-now-mytaxi/id357852748" class="freenow-link-btn">
+                            <i class="bi bi-apple"></i>
+                            <div class="freenow-link-text">
+                                <span>Descargar en</span>
+                                <h5>Google Play</h5>
+                            </div>
+                        </a>
+                    </div>
                 </div>
+
             </div>
+
         </section>
+
+
         <section class="formulario-contacto-section">
             <!-- datos del formulario nombre apellidos email telefono y mensaje -->
             <div class="formulario-contacto-container">

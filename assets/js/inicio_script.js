@@ -77,6 +77,6 @@ btnPrev.addEventListener("click", function () {
   Prev();
 });
 
-// setInterval(function(){
-//     Next();
-// }, 4500);
+setInterval(function(){
+  Next();
+}, 4500);

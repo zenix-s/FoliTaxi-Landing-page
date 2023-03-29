@@ -51,10 +51,7 @@ main > .containerSlider > .sliderWrapper > .sliderCaption{
     display: inline-block;
     text-align: center;
     width: 100%;
-    /* transform: translateX(0%) !important; */
-    /* animation: slider 5s normal; */
 }
-
 @keyframes slider{
     0%{
         transform: translateX(100%);
@@ -64,16 +61,12 @@ main > .containerSlider > .sliderWrapper > .sliderCaption{
     }
 
 }
-
 main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderImg{
     display: block;
     width: 100%;
     height: 90%;
     object-fit: cover;
 }
-
-
-/*-------TEXTOS-------*/
 main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
     position: absolute;
     top: 20px;
@@ -99,14 +92,11 @@ main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .subHe
     display: block;
 }
 
-main > .containerSlider:hover > .sliderWrapper > .sliderCaption > .sliderHead/*.effectHead*/{
+main > .containerSlider:hover > .sliderWrapper > .sliderCaption > .sliderHead{
     transition-delay: 500ms;
     opacity: 1;
     transform: translateY(0);
 }
-
-
-/*-------BOTONES-------*/
 main > .containerSlider > .btn-container{
     display: flex;
     flex-direction: column;
@@ -150,9 +140,6 @@ main > .containerSlider > .left-btn, .right-btn{
     opacity: 0;
     transition: 0.25s ease opacity, 0.25s ease transform;
 }
-
-
-
 
 /* section servicios */
 
@@ -259,6 +246,86 @@ main > .containerSlider > .left-btn, .right-btn{
 
 
 /* seccion freenow */
+
+
+.freenow-section{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#808080;
+    
+}
+.freenow-container{
+    display: flex;
+    width: 100%;
+    top: 50%;
+}
+/*---imagen---*/
+.freenow-img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.freenow-img > img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    border: 10px solid transparent; /*borde transparente*/
+}
+/*---texto---*/
+.freenow-description{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.freenow-description > p{
+    font-size: 14px;
+    display: flex;
+    margin: 10px;
+    justify-self: flex-end;
+}
+/*---boton enlace---*/
+
+.freenow-link{
+    display: flex;
+    text-align: center;
+}
+.freenow-link-btn{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background: #010101;
+    border-radius: 10px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#808080;
+    text-decoration:none;
+}
+.freenow-link-btn > i{
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 2em;
+    float: left;
+    color:#ffffff;
+}
+.freenow-link-text > span{
+    font-size: 12px;
+    color:#ffffff;
+}
+
+.freenow-link-text > h5{
+    font-size: 18px;
+    color:#ffffff;
+    margin-bottom: 2px;
+}
+
 
 
 
