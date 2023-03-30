@@ -71,8 +71,8 @@ class componentes
     function subheader($title, $description,$description2,$description3, $image)
     {
         return '
-        <div class="header-image">
-        <img src=" '. $image .' " alt="Neumáticos">
+        <div class="header-image" style="background-image: url('.$image.');">
+        
         <div class="header-text">  
             <h1>'. $title .'</h1>
             <p> ' . $description .  ' </p>
@@ -84,3 +84,4 @@ class componentes
         ';
     }
 }
+// <img src=" '. $image .' " alt="Neumáticos" >

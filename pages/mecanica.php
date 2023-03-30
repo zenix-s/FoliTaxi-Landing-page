@@ -18,20 +18,7 @@
 <body>
     <?php
         echo $componentes -> Header();
-    ?>
-        <!-- Mecanica 
-    <div class="header-image">
-        <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
-        <div class="header-text">  
-            <h1>MECÁNICA DEL AUTOMÓVIL</h1>
-            <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
-            <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
-            <p>Además, ofrecemos servicios como:</p>
-            <button>Servicios</button>
-        </div>
-    </div>-->
-
-    <?php
+    
         echo $componentes ->subheader("MECÁNICA DEL AUTOMÓVIL","Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
         "Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.",
         "Además, ofrecemos servicios como: ", "../assets/img/neumaticos.jpg");
