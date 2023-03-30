@@ -15,9 +15,7 @@
 
 <body>
 <?php
-    include_once 'includes/mailing.php';
-    $mailing = new mailing();
-    $mailing->sendMail();
+    header("Location: pages/inicio.php")
 ?>
 </body>
 

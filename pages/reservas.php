@@ -64,5 +64,6 @@
     <?php
         echo $componentes -> Footer();
     ?>
+    <script src="../assets/js/header.js"></script>
 </body>
 </html>

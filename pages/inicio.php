@@ -16,6 +16,7 @@ $componentes = new componentes();
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/general.css">
 </head>
 
 <body>
@@ -87,7 +88,7 @@ $componentes = new componentes();
                             <img src="../assets/img/taxis.png" alt="bucle">
                         </div>
                         <div class="service-description">
-                            <h3>Bucle magnetico</h3>
+                            <h3>Escuela Conductores</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                             <a href="#">Saber mas</a>
 
@@ -227,6 +228,7 @@ $componentes = new componentes();
         echo $componentes->footer();
         ?>
     <script src="../assets/js/inicio_script.js"></script>
+    <script src="../assets/js/header.js"></script>
 </body>
 
 </html>
