@@ -249,29 +249,29 @@ main > .containerSlider > .left-btn, .right-btn{
 /* seccion freenow */
 .freenow-section{
     display: flex;
-    width: 40%;
-    height: auto;
-    margin: 0 auto;
-    border-width: 1px;
-    border-style: solid;
-    border-color:#808080;
-    box-shadow: 0px 0px 5px #808080;
+    width: 100%;
+    justify-content: center;
 }
 .freenow-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    top: 50%;
+    max-width: 800px;
+    padding: 50px 0;
 }
+
+
 /*---Imagen FreeNow---*/
 .freenow-img{
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
-    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 .freenow-img > img{
-    width: 70%;
-    height: 100%;
+    width: 300px;
+    aspect-ratio: 1/1;
     object-fit: cover;
     float: left;
     
@@ -282,34 +282,40 @@ main > .containerSlider > .left-btn, .right-btn{
 }
 /*---Texto FreeNow---*/
 .freenow-description{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     justify-content: space-between;
     align-items: flex-end;
+    justify-content: center;
 }
 .freenow-description > p{
-    font-size: 13.5px;
-    display: flex;
-    margin-top: 10px;
-    margin-right: 10px;
-    text-align: left;
-    line-height: 17px;
-    justify-content: center;
-    white-space: break-word;
-}
-.freenow-description > br{
-    margin-top: 5px;
+    font-size: 1.2em;
+    line-height: 1.2;
+    padding: 15px;
+    text-align: justify;
 }
 /*---Botónes de app---*/
 .freenow-link{
     display: flex;
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 768px){
+    .freenow-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .freenow-link{
+        justify-content: space-between;
+    }
 }
 .freenow-link-btn{
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    margin-right: 30px;
+    width: 166px;
+    height: 50px;
     background: #010101;
     border-radius: 10px;
     text-align: center;
@@ -317,6 +323,7 @@ main > .containerSlider > .left-btn, .right-btn{
     border-style: solid;
     border-color:#808080;
     text-decoration:none;
+    margin: 10px 15px;
 }
 .freenow-link-btn > i{
     margin-top: 3px;
