@@ -86,29 +86,27 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   height: 250px;
 
 }
-.img-menu-acordeon > img:hover{
+/* .img-menu-acordeon > img:hover{
   filter: brightness(0.8);
-  
-  /*filter: opacity(50%);mas claro*/
-}
+} */
 .item {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
-  border-radius: 11px;
+  /* border-radius: 11px; */
 }
 /* Estilo inicial para los elementos header-item */
 .header-item {
   display: flex;
   justify-content: space-between;
   padding:  15px 20px;
-  border-radius: 10px;
-  border-right: 5px solid rgb(255, 255, 255);
-  border-left: 5px solid rgb(255, 255, 255);
-  transition: border-color 0.5s ease-in-out;
+  border-right: 5px solid transparent;
+  transition: border-color 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 /* Estilo cuando se pasa el cursor sobre los elementos header-item */
 .header-item:hover {
-  border-color: var(--color1);
+  border-right: 5px solid var(--color1);
+
 }
 
 
@@ -128,6 +126,7 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 .text {
   font-size: 24px;
   font-weight: 500;
+  user-select: none;
 }
 
 .icon {
@@ -178,7 +177,11 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 /* OPEN STATE */
 .open {
   border-top: 2px solid var(--color1);
-
+}
+/* al hijo directo de la clase open .header-item cuando la clase open esta asignada el borde derecho de header-item se trasparenta para evitar el efecto hover establecido posteriormete */
+.open > .header-item {
+  border-right: 5px solid transparent !important;
+  transition: border-color 0 ease-in-out;
 }
 
 .hidden-body{

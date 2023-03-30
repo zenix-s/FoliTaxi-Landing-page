@@ -24,7 +24,7 @@ header > .logo > img{
     margin: 10px;
 }
 
-header > .logo::after{
+/* header > .logo::after{
     content: " ";
     display: block;
     width: 3px;
@@ -32,7 +32,7 @@ header > .logo::after{
     background-color: var(--color2);
     transform: rotate(20deg);
     margin-left: 25px;
-}
+} */
 .navegacion{
     display: flex;
     justify-content: space-between;

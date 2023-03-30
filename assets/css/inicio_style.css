@@ -219,14 +219,14 @@ main > .containerSlider > .left-btn, .right-btn{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-.service-description > p::after{
+/* .service-description > p::after{
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background-color: #fff;
     margin-top: 10px;
-}
+} */
 .service-description > a{
     font-size: 1.5rem;
     text-decoration: none;
