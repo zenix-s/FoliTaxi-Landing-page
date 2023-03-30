@@ -28,7 +28,7 @@
     
 }
 .primeraSeccion > .textoUno > .titulo{
-    color: #ff7928;
+    color: var(--color1);
     
 }
 
