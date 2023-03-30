@@ -90,7 +90,6 @@ $componentes = new componentes();
                             <h3>Bucle magnetico</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                             <a href="#">Saber mas</a>
-
                         </div>
                     </div>
                 </div>
