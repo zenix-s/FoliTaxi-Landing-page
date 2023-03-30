@@ -136,14 +136,14 @@ $componentes = new componentes();
                             <i class="bi bi-google-play"></i>
                             <div class="freenow-link-text">
                                 <span>Descargar en</span>
-                                <h5>App Store</h5>
+                                <h5>Google Play</h5>
                             </div>
                         </a>
                         <a href="https://apps.apple.com/us/app/free-now-mytaxi/id357852748" class="freenow-link-btn">
                             <i class="bi bi-apple"></i>
                             <div class="freenow-link-text">
                                 <span>Descargar en</span>
-                                <h5>Google Play</h5>
+                                <h5>App Store</h5>
                             </div>
                         </a>
                     </div>

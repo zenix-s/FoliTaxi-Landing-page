@@ -76,10 +76,6 @@
                         prematuro, mejorar el consumo de combustible y proteger el medio ambiente.
                          
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>                
             </div>
@@ -119,10 +115,6 @@
                         Con nuestro servicio de limpieza exterior, te garantizamos que tu vehículo quedará como el primer día. 
                         Limpieza a fondo de carrocería, llantas y cristales para que brille con luz propia.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
                
@@ -164,10 +156,6 @@
                         ¿Tienes algún problema eléctrico en tu vehículo? En WETAXI MADRID, te ofrecemos un servicio integral de 
                         reparación de problemas eléctricos para que no te quedes nunca tirado.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
                
@@ -209,10 +197,6 @@
                     En WETAXI MADRID, realizamos todo tipo de mantenimiento y revisión de vehículos para que siempre puedas
                      conducir con total seguridad y confianza en tu coche.
                     </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -252,10 +236,6 @@
                         Un buen mantenimiento del motor es imprescindible para el correcto funcionamiento de tu vehículo. 
                         En WETAXI MADRID, te ofrecemos el servicio de cambio de aceite y filtros para mantener tu coche en perfectas condiciones
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
                
@@ -299,10 +279,6 @@
                         profesional que cumplan con los parámetros y requisitos que la normativa española exige para permitir 
                         la transformación de vehículos propulsados por Gasolina a Autogas GLP.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
                
@@ -310,7 +286,12 @@
             </div>
         </div> 
     </div> <!--Fin  menu acordeon-->
-
+    <!--
+    <div class="botones-menu-acordeon" >
+        
+        <button > Saber más  </button>
+    </div>
+    -->
     <script>
         // Obtener todos los elementos con la clase header-item
         const headerItems = document.querySelectorAll('.header-item');

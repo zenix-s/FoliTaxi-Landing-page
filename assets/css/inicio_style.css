@@ -274,11 +274,8 @@ main > .containerSlider > .left-btn, .right-btn{
     aspect-ratio: 1/1;
     object-fit: cover;
     float: left;
-    
     border: 10px solid transparent;
-    
     border-radius: 20px;
-
 }
 /*---Texto FreeNow---*/
 .freenow-description{
