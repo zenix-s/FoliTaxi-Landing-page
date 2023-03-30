@@ -3,7 +3,8 @@
     --color2: #d21b24;
     --color3: #010101;
     --color4: #FFF9F1;
-  }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +13,7 @@
 }
 .header-image{
     position: relative;
-    margin: auto;
-  
+    margin: 25px 0 50px 0;
   }
 .header-image > img {
     width: 100%;

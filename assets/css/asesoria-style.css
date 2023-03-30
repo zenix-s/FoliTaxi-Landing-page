@@ -44,14 +44,14 @@
   
   /* Style the counter cards */
   .card {
-    
-    
     background: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
     background-color:transparent;
-    
+  }
+  .card:hover{
+    transform: scale(1.10);
   }
   /*estilo icono */
   .icono-asesoria-container{
@@ -60,6 +60,8 @@
     justify-content: center;
     margin-bottom: 30px;
   }
+  
+  
   .icono-asesoria {
     display: flex;
     justify-content: center;
@@ -74,6 +76,7 @@
     font-size: 3rem; /* hace el ícono más grande */
     color: #fff; /* cambia el color del ícono según tus preferencias */
   }
+
   /*texto dentro del card*/
   .card h3 {
     font-size: 24px;
