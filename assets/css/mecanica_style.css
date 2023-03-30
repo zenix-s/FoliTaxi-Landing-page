@@ -12,10 +12,6 @@
 }
 
 /* Estilos para mecanica.php */
-
-/*encabezado de macanica
-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
-*/
 .header-image{
   position: relative;
   margin: auto;
@@ -38,13 +34,10 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   color: var(--color4);
   margin-top: 15px;
 }
-
 .header-text > p{
-  
   margin-top: 10px;
   color: var(--color4);
 }
-
 .header-text > button{
   background-color: transparent;
   margin-top: 10px;
@@ -57,7 +50,6 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   transition: all 0.3s ease;
   cursor: pointer;
 }
-
 .header-text > button:hover {
   background-color: var(--color1);
   color: var(--color4);
@@ -84,15 +76,12 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   min-width: 250px;
   object-fit: cover;
   height: 250px;
-
 }
-/* .img-menu-acordeon > img:hover{
-  filter: brightness(0.8);
-} */
+
 .item {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
-  /* border-radius: 11px; */
 }
+
 /* Estilo inicial para los elementos header-item */
 .header-item {
   display: flex;
@@ -106,14 +95,9 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 /* Estilo cuando se pasa el cursor sobre los elementos header-item */
 .header-item:hover {
   border-right: 5px solid var(--color1);
-
 }
-
-
-
 .icon-title{
   display: flex;
-
 }
 .item-contenido{
   display: flex;
@@ -128,7 +112,6 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   font-weight: 500;
   user-select: none;
 }
-
 .icon {
   width: 24px;
   height: 24px;
@@ -147,12 +130,9 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 }
 .texto-menu-acordeon > p {
   line-height: 1.6;
-  
   text-align: justify;
   padding: 15px;
-  
 }
-
 .item-contenido .botones-menu-acordeon {
   display: flex;
   justify-content: center;
@@ -185,30 +165,18 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 .open {
   border-top: 2px solid var(--color1);
 }
+
 /* al hijo directo de la clase open .header-item cuando la clase open esta asignada el borde derecho de header-item se trasparenta para evitar el efecto hover establecido posteriormete */
 .open > .header-item {
   border-right: 5px solid transparent !important;
   transition: border-color 0 ease-in-out;
 }
-
 .hidden-body{
   display: hidden;
 }
-
 .shown-body{
   display: block;
 }
-
-
 .open .text {
   color:  var(--color1);
 }
-
-/* nuevo css */ 
-
-
-
-
-  
-
-  

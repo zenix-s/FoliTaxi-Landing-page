@@ -80,7 +80,6 @@
                 </div>                
             </div>
         </div>
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -117,11 +116,8 @@
                         </p>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -158,11 +154,8 @@
                         </p>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>   
-
         <div class="item">
             <div class="header-item">
                 <div class="icon-title">
@@ -201,7 +194,6 @@
                 </div>
             </div>
         </div>   
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -238,11 +230,8 @@
                         </p>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>   
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -281,17 +270,9 @@
                         </p>
                     </div>
                 </div>    
-               
-               
             </div>
         </div> 
     </div> <!--Fin  menu acordeon-->
-    <!--
-    <div class="botones-menu-acordeon" >
-        
-        <button > Saber más  </button>
-    </div>
-    -->
     <script>
         // Obtener todos los elementos con la clase header-item
         const headerItems = document.querySelectorAll('.header-item');
@@ -316,11 +297,6 @@
             }
         });
         });
-
     </script>
-
-    
-    
-    
 </body>
 </html>
