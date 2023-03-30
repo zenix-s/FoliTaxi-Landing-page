@@ -67,6 +67,7 @@ class componentes
         </footer>
         ';
     }
+    
     function subheader($title, $description,$description2,$description3, $image)
     {
         return '
