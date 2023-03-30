@@ -13,15 +13,10 @@
 
 /* Estilos para mecanica.php */
 
-
-
-
 /*encabezado de macanica
 filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 */
 .header-image{
- 
-  
   position: relative;
   margin: auto;
 
@@ -55,7 +50,7 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
   background-color: transparent;
   margin-top: 20px;
   color: var(--color4);
-  border: 1px solid var(--color3);
+  border: 1px solid var(--color4);
   padding: 12px 24px;
   border-radius: 24px;
   font-size: 16px;
@@ -70,15 +65,13 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9)); ;
 }
 
 /*animacion menu*/
-
 .acordeon {
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 100px auto;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  
 }
 .img-menu-acordeon{
   height: 250px;

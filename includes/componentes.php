@@ -32,6 +32,9 @@ class componentes
         </header>
         ';
     }
+    //FUNCION ENCARGADA DE CREAR EL ENCABEZADO EN MECANICA Y ASESORIA 
+
+
 
     // Función encargada de generar el footer de la página
     function footer()
@@ -62,6 +65,21 @@ class componentes
             </ul>
         </div>
         </footer>
+        ';
+    }
+    function subheader($title, $description,$description2,$description3, $image)
+    {
+        return '
+        <div class="header-image">
+        <img src=" '. $image .' " alt="Neumáticos">
+        <div class="header-text">  
+            <h1>'. $title .'</h1>
+            <p> ' . $description .  ' </p>
+            <p> ' . $description2 .  ' </p>
+            <p> ' . $description3 .  ' </p>
+            <button>Servicios</button>
+        </div>
+        </div>
         ';
     }
 }

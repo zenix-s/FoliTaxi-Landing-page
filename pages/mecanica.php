@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/mecanica_style.css">
+    <link rel="stylesheet" href="../assets/css/subheader.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <!-- <link rel="stylesheet" href="../assets/css/footer.css"> -->
@@ -18,7 +19,7 @@
     <?php
         echo $componentes -> Header();
     ?>
-        <!-- Mecanica -->
+        <!-- Mecanica 
     <div class="header-image">
         <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
         <div class="header-text">  
@@ -28,7 +29,13 @@
             <p>Además, ofrecemos servicios como:</p>
             <button>Servicios</button>
         </div>
-    </div>
+    </div>-->
+
+    <?php
+        echo $componentes ->subheader("MECÁNICA DEL AUTOMÓVIL","Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
+        "Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.",
+        "Además, ofrecemos servicios como: ", "../assets/img/neumaticos.jpg");
+    ?>
 
     <!--menu acordeon-->
     <div class="acordeon">
