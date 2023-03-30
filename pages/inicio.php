@@ -82,8 +82,6 @@ $componentes = new componentes();
                     </div>
                 </div>
                 <div class="service-container">
-
-
                     <div class="service">
                         <div class="service-img">
                             <img src="../assets/img/taxis.png" alt="bucle">
@@ -105,7 +103,6 @@ $componentes = new componentes();
                             <h3>Asesoria</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                             <a href="#">Saber mas</a>
-
                         </div>
                     </div>
                 </div>
@@ -118,16 +115,13 @@ $componentes = new componentes();
                             <h3>Taller</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                             <a href="#">Saber mas</a>
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
         <section class="freenow-section">
+            <!-- Zona Free Now con link de descarga de app -->
             <div class="freenow-container">
                 <div class="freenow-img">
                     <img src="../assets/img/freenow-inicio2.png" alt="freenow">
@@ -135,7 +129,7 @@ $componentes = new componentes();
                 <div class="freenow-description">
                     <p>WeTaxi Madrid y Free Now ofrecen servicios de mantenimiento y reparación de vehículos con descuentos para taxistas 
                         de Madrid de Free Now con categoría "Bronce" o superior.
-                    <br>Además, los conductores pueden obtener descuentos en reparación de taxímetros y luminosos, y se premiará a los 50 
+                    <br><br>Además, los conductores pueden obtener descuentos en reparación de taxímetros y luminosos, y se premiará a los 50 
                         mejores taxistas de la flota Free Now.</p>
                     <div class="freenow-link">
                         <a href="https://play.google.com/store/apps/details?id=taxi.android.client&hl=es&gl=US" class="freenow-link-btn">
@@ -154,12 +148,8 @@ $componentes = new componentes();
                         </a>
                     </div>
                 </div>
-
             </div>
-
         </section>
-
-
         <section class="formulario-contacto-section">
             <!-- datos del formulario nombre apellidos email telefono y mensaje -->
             <div class="formulario-contacto-container">
