@@ -16,8 +16,8 @@ class componentes
                 <li><a href="inicio.php">Inicio</a></li>
                 <li><a href="mecanica.php">Mecanica</a></li>
                 <li><a href="reservas.php">Reservas</a></li>
-                <li><a href="asesoria.php">asesoria</a></li>
-                <li><a href="conductores.php">conductores</a></li>
+                <li><a href="asesoria.php">Asesoria</a></li>
+                <li><a href="equipamiento.php">Equipamiento</a></li>
             </ul>
         </div>
         <div class="sesion">
@@ -61,7 +61,7 @@ class componentes
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="index.php">Mecanica</a></li>
                 <li><a href="index.php">Reservas</a></li>
-                <li><a href="index.php">asesoria</a></li>
+                <li><a href="index.php">Asesoria</a></li>
             </ul>
         </div>
         </footer>

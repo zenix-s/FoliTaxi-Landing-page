@@ -47,9 +47,19 @@
     min-width: 300px;
     display: none; /* Hide columns by default */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-
   }
+  .column:hover{
+    transform: scale(1.10);
+  }
+  .content >p,h4 {
+    color: var(--color5);
+  }
+  .img-equipamiento{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+  
   
   /* Clear floats after rows */
   .row:after {
@@ -62,6 +72,7 @@
   .content {
     background-color: white;
     padding: 10px;
+ 
   }
   
   /* The "show" class is added to the filtered elements */

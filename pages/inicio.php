@@ -76,7 +76,7 @@ $componentes = new componentes();
                         </div>
                         <div class="service-description">
                             <h3>Escuela de conductores</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            <p>Disponemos del espacio perfecto para desarrollar nuestros cursos. También en idioma Urdu e Inglés.</p>
                             <a href="#">Saber mas</a>
                         </div>
                     </div>
@@ -87,8 +87,9 @@ $componentes = new componentes();
                             <img src="../assets/img/taxis.png" alt="bucle">
                         </div>
                         <div class="service-description">
-                            <h3>Bucle magnetico</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            <h3>Equipamiento</h3>
+                            <p>En esta sección, presentamos los equipos y accesorios que ofrecemos para mejorar 
+                            la experiencia de nuestros clientes durante el servicio de taxi.</p>
                             <a href="#">Saber mas</a>
 
                         </div>
