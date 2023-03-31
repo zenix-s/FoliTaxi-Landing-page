@@ -18,9 +18,7 @@
 <body>
     <?php
         echo $componentes -> Header();
-    ?>
-
-    <?php
+    
         echo $componentes ->subheader("MECÁNICA DEL AUTOMÓVIL","Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
         "Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.",
         "Además, ofrecemos servicios como: ", "../assets/img/neumaticos.jpg");
@@ -287,7 +285,7 @@
         });
         });
     </script>
-
+    <script src="../assets/js/header.js"></script>
     
     
     
