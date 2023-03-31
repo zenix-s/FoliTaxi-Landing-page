@@ -19,17 +19,6 @@
     <?php
         echo $componentes -> Header();
     ?>
-        <!-- Mecanica 
-    <div class="header-image">
-        <img src="../assets/img/neumaticos.jpg" alt="Neumáticos">
-        <div class="header-text">  
-            <h1>MECÁNICA DEL AUTOMÓVIL</h1>
-            <p>Somos una empresa de taxis con taller autorizado para revisiones oficiales.</p>
-            <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
-            <p>Además, ofrecemos servicios como:</p>
-            <button>Servicios</button>
-        </div>
-    </div>-->
 
     <?php
         echo $componentes ->subheader("MECÁNICA DEL AUTOMÓVIL","Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
@@ -76,15 +65,10 @@
                         prematuro, mejorar el consumo de combustible y proteger el medio ambiente.
                          
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>                
             </div>
         </div>
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -119,17 +103,10 @@
                         Con nuestro servicio de limpieza exterior, te garantizamos que tu vehículo quedará como el primer día. 
                         Limpieza a fondo de carrocería, llantas y cristales para que brille con luz propia.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -164,17 +141,10 @@
                         ¿Tienes algún problema eléctrico en tu vehículo? En WETAXI MADRID, te ofrecemos un servicio integral de 
                         reparación de problemas eléctricos para que no te quedes nunca tirado.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>   
-
         <div class="item">
             <div class="header-item">
                 <div class="icon-title">
@@ -209,15 +179,10 @@
                     En WETAXI MADRID, realizamos todo tipo de mantenimiento y revisión de vehículos para que siempre puedas
                      conducir con total seguridad y confianza en tu coche.
                     </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>   
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -252,17 +217,10 @@
                         Un buen mantenimiento del motor es imprescindible para el correcto funcionamiento de tu vehículo. 
                         En WETAXI MADRID, te ofrecemos el servicio de cambio de aceite y filtros para mantener tu coche en perfectas condiciones
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
-               
-               
             </div>
         </div>   
-
         <div class="item ">
             <div class="header-item">
                 <div class="icon-title">
@@ -299,18 +257,11 @@
                         profesional que cumplan con los parámetros y requisitos que la normativa española exige para permitir 
                         la transformación de vehículos propulsados por Gasolina a Autogas GLP.
                         </p>
-                        <div class="botones-menu-acordeon" >
-                            <!--EN EL CASO DE QUE REDIRIJA A OTRA PAGINA <button>saber mas </button>-->
-                            <button > Saber más  </button>
-                        </div>
                     </div>
                 </div>    
-               
-               
             </div>
         </div> 
     </div> <!--Fin  menu acordeon-->
-
     <script>
         // Obtener todos los elementos con la clase header-item
         const headerItems = document.querySelectorAll('.header-item');
@@ -335,9 +286,8 @@
             }
         });
         });
-
     </script>
-    <script src="../assets/js/header.js"></script>
+
     
     
     
