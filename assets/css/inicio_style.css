@@ -11,15 +11,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-main > .primeraSeccion{
+.primeraSeccion{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     height: 100vh;
     background-size: cover;
 }
-main > .primeraSeccion > .textoUno{
+.primeraSeccion > .textoUno{
     height: 15%;
     width: 25%;
     text-align: center;
@@ -28,26 +27,25 @@ main > .primeraSeccion > .textoUno{
     border-radius: 25px;
     
 }
-main > .primeraSeccion > .textoUno > .titulo{
-    color: #ff7928;
+.primeraSeccion > .textoUno > .titulo{
+    color: var(--color1);
     
 }
 
 /* slider section */
-
-main > .containerSlider{
+.containerSlider{
     width: 100%;
     max-width: auto;
     margin: auto;
     overflow: hidden;
     position: relative;
 }
-main > .containerSlider > .sliderWrapper{
+.containerSlider > .sliderWrapper{
     display: flex;
     width: 400%;
     height: 400px;
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption{
+.containerSlider > .sliderWrapper > .sliderCaption{
     position: relative;
     display: inline-block;
     text-align: center;
@@ -60,15 +58,14 @@ main > .containerSlider > .sliderWrapper > .sliderCaption{
     100%{
         transform: translateX(0%);
     }
-
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderImg{
+.containerSlider > .sliderWrapper > .sliderCaption > .sliderImg{
     display: block;
     width: 100%;
     height: 90%;
     object-fit: cover;
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
+.containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
     position: absolute;
     top: 20px;
     left: 20px;
@@ -81,24 +78,23 @@ main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .head{
+.containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .head{
     font-size: 20px;
     color:#010101;
     transition: 500ms ease-in all;
 }
-main > .containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .subHead{
+.containerSlider > .sliderWrapper > .sliderCaption > .sliderHead > .subHead{
     font-size: 15px;
     font-weight: bold;
     color:#d21b24;
     display: block;
 }
-
-main > .containerSlider:hover > .sliderWrapper > .sliderCaption > .sliderHead{
+.containerSlider:hover > .sliderWrapper > .sliderCaption > .sliderHead{
     transition-delay: 500ms;
     opacity: 1;
     transform: translateY(0);
 }
-main > .containerSlider > .btn-container{
+.containerSlider > .btn-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +102,7 @@ main > .containerSlider > .btn-container{
     position: absolute;
     top: 40%;
 }
-main > .containerSlider > .btn-container > .btn{
+.containerSlider > .btn-container > .btn{
     width: 40px;
     height: 40px;
     background: #f2f2f28c;
@@ -121,29 +117,28 @@ main > .containerSlider > .btn-container > .btn{
     transition-duration: 0.5s;
     transition-timing-function: linear;
 }
-main > .containerSlider > .left-btn{
+.containerSlider > .left-btn{
     left: 10px;
     transform: translateX(-100%);
 }
-main > .containerSlider > .right-btn{
+.containerSlider > .right-btn{
     right: 10px;
     transform: translateX(100%);
 }
-main > .containerSlider > .btn-container > .btn:hover{
+.containerSlider > .btn-container > .btn:hover{
     opacity: 1;
     background: #ff7a28 ;
 }
-main > .containerSlider:hover .left-btn, .containerSlider:hover .right-btn{
+.containerSlider:hover .left-btn, .containerSlider:hover .right-btn{
     opacity: 0.5;
     transform: translateX(0);
 }
-main > .containerSlider > .left-btn, .right-btn{
+.containerSlider > .left-btn, .right-btn{
     opacity: 0;
     transition: 0.25s ease opacity, 0.25s ease transform;
 }
 
 /* section servicios */
-
 .servicios-section{
     display: flex;
     flex-direction: column;
@@ -219,14 +214,6 @@ main > .containerSlider > .left-btn, .right-btn{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-/* .service-description > p::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    margin-top: 10px;
-} */
 .service-description > a{
     font-size: 1.5rem;
     text-decoration: none;
@@ -245,7 +232,6 @@ main > .containerSlider > .left-btn, .right-btn{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 /* seccion freenow */
 .freenow-section{
     display: flex;
@@ -261,7 +247,6 @@ main > .containerSlider > .left-btn, .right-btn{
     padding: 50px 0;
 }
 
-
 /*---Imagen FreeNow---*/
 .freenow-img{
     width: 300px;
@@ -274,12 +259,10 @@ main > .containerSlider > .left-btn, .right-btn{
     aspect-ratio: 1/1;
     object-fit: cover;
     float: left;
-    
     border: 10px solid transparent;
-    
     border-radius: 20px;
-
 }
+
 /*---Texto FreeNow---*/
 .freenow-description{
     display: flex;
@@ -296,6 +279,7 @@ main > .containerSlider > .left-btn, .right-btn{
     padding: 15px;
     text-align: justify;
 }
+
 /*---Botónes de app---*/
 .freenow-link{
     display: flex;
@@ -336,7 +320,6 @@ main > .containerSlider > .left-btn, .right-btn{
     font-size: 12px;
     color:#ffffff;
 }
-
 .freenow-link-text > h5{
     font-size: 18px;
     color:#ffffff;
@@ -344,7 +327,6 @@ main > .containerSlider > .left-btn, .right-btn{
 }
 
 /* Formulario contacto */
-
 .formulario-contacto-section{
     display: flex;
     justify-content: center;
@@ -355,7 +337,6 @@ main > .containerSlider > .left-btn, .right-btn{
     .formulario-contacto-section{
         flex-direction: column;
     }
-
 }
 .formulario-contacto-container{
     width: 100%;
@@ -375,7 +356,6 @@ main > .containerSlider > .left-btn, .right-btn{
     flex-direction: column;
     gap: 25px;
 }
-
 .input-container{
     position: relative;
 }
@@ -423,7 +403,6 @@ main > .containerSlider > .left-btn, .right-btn{
 }
 
 /* Contact info */
-
 .datos-contacto-container{
     width: 400px;
     flex-direction: column;
@@ -440,10 +419,8 @@ main > .containerSlider > .left-btn, .right-btn{
     .datos-contacto-container{
         width: 100%;
         border-radius: 0 0 10px 10px;
-
     }
 }
-
 .datos-contacto-item{
     display: flex;
     justify-content: flex-start;
@@ -451,7 +428,6 @@ main > .containerSlider > .left-btn, .right-btn{
     gap: 20px;
     margin-bottom: 20px;
 }
-
 .datos-contacto-icon{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
