@@ -2,11 +2,11 @@
 
 class componentes
 {
-    // Función encargada de generar el header de la página
+  // Función encargada de generar el header de la página
 
-    function header()
-    {
-        return '
+  function header()
+  {
+    return '
         <header class="header-sticky">
             <div class="logo">
             <img src="../assets/img/logo.png" alt="logo">
@@ -32,44 +32,45 @@ class componentes
         </header>
         
         ';
-    }
-    //FUNCION ENCARGADA DE CREAR EL ENCABEZADO EN MECANICA Y ASESORIA 
+  }
+  //FUNCION ENCARGADA DE CREAR EL ENCABEZADO EN MECANICA Y ASESORIA 
 
 
 
-    // Función encargada de generar el footer de la página
-    // function footer()
-    // {
-    //     return '
-    //     <footer>
-    //     <div class="footer_container">
-    //         <div class="logo">
-    //             <img src="../assets/img/logo.png" alt="logo">
-    //         </div>
-    //         <div class="redes">
-    //             <ul>
-    //                 <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
-    //                 <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
-    //                 <li><a href="index.php"><i class="bi bi-instagram"></i></a></li>
-    //                 <li><a href="index.php"><i class="bi bi-twitter"></i></a></li>
-    //                 <li><a href="index.php"><i class="bi bi-youtube"></i></a></li>
-    //                 <li><a href="index.php"><i class="bi bi-tiktok"></i></a></li>
-    //             </ul>
-    //         </div>
-    //     </div>
-    //     <div class="nav_options">
-    //         <ul>
-    //             <li><a href="index.php">Inicio</a></li>
-    //             <li><a href="index.php">Taller</a></li>
-    //             <li><a href="index.php">Reservas</a></li>
-    //             <li><a href="index.php">asesoria</a></li>
-    //         </ul>
-    //     </div>
-    //     </footer>
-    //     ';
-    // }
-    function footer() {
-        return '
+  // Función encargada de generar el footer de la página
+  // function footer()
+  // {
+  //     return '
+  //     <footer>
+  //     <div class="footer_container">
+  //         <div class="logo">
+  //             <img src="../assets/img/logo.png" alt="logo">
+  //         </div>
+  //         <div class="redes">
+  //             <ul>
+  //                 <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
+  //                 <li><a href="index.php"><i class="bi bi-facebook"></i></a></li>
+  //                 <li><a href="index.php"><i class="bi bi-instagram"></i></a></li>
+  //                 <li><a href="index.php"><i class="bi bi-twitter"></i></a></li>
+  //                 <li><a href="index.php"><i class="bi bi-youtube"></i></a></li>
+  //                 <li><a href="index.php"><i class="bi bi-tiktok"></i></a></li>
+  //             </ul>
+  //         </div>
+  //     </div>
+  //     <div class="nav_options">
+  //         <ul>
+  //             <li><a href="index.php">Inicio</a></li>
+  //             <li><a href="index.php">Taller</a></li>
+  //             <li><a href="index.php">Reservas</a></li>
+  //             <li><a href="index.php">asesoria</a></li>
+  //         </ul>
+  //     </div>
+  //     </footer>
+  //     ';
+  // }
+  function footer()
+  {
+    return '
         <footer>
             <div class="footer-container">
                 <div class="footer-logo">
@@ -77,16 +78,16 @@ class componentes
                 </div>
                 
                 <div clas="footer-links">
-                    <ul class="links">
-                        <li>
+                    <div class="links">
+                        <ul>
                             <h1>Empresa</h1>
-                            <a class="a" href="#">Conocenos</a>
-                            <a class="a" href="#">Mecanica</a>
-                            <a class="a" href="#">Equipamiento</a>
-                            <a class="a" href="#">Servicios</a>
-                            <a class="a" href="#">Contacto</a>
-                        </li>
-                    </ul>
+                           <li> <a class="a" href="#">Conocenos</a> </li>
+                           <li> <a class="a" href="#">Mecanica</a> </li>
+                           <li><a class="a" href="#">Equipamiento</a> </li>
+                           <li><a class="a" href="#">Servicios</a> </li>
+                           <li><a class="a" href="#">Contacto</a> </li>
+                        </ul>
+                    </div>
                     <ul class="links">
                         <li>
                             <h1>Reservas</h1>
@@ -97,7 +98,7 @@ class componentes
                         </li>
                     </ul>
                     <ul class="links">
-                        <li>
+                        <li class="flex-list">
                             <h1>Escuela</h1>
                             <a href="#">Conocenos</a>
                             <a href="#">Mecanica</a>
@@ -158,11 +159,11 @@ class componentes
             </div>
         </footer>
         ';
-    }
-    function subheader($title, $description, $description2, $description3, $image)
-    {
-        return '
-        <div class="header-image" style="background-image:url('.$image.');">
+  }
+  function subheader($title, $description, $description2, $description3, $image)
+  {
+    return '
+        <div class="header-image" style="background-image:url(' . $image . ');">
         <div class="header-text">  
             <h1>' . $title . '</h1>
             <p> ' . $description .  ' </p>
@@ -172,6 +173,6 @@ class componentes
         </div>
         </div>
         ';
-    }
+  }
 }
 // <img src=" '. $image .' " alt="Neumáticos" >

@@ -9,6 +9,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex-list{
+  display: flex;
+  flex-direction: column;
+}
 footer{
     color: var(--color4);
     background-color: #6b6b6b;
@@ -39,8 +43,8 @@ footer > .footer-container{
 .footer-container > .footer-links > .links{
     display: flex;
 }
-.footer-container > .footer-links > .links li{
-    color: #d21b24;
+.links > ul > li > .a{
+    color: #d21b24 !important;
     list-style: none
 }
 
