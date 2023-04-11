@@ -13,21 +13,21 @@ footer{
     color: var(--color4);
     padding: 20px;
 }
-footer > .footer_container{
+footer > .footer-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer > .footer_container > .footer_logo{
+footer > .footer-container > .footer_logo{
     display: flex;
     align-items: center;
 }
-footer > .footer_container > .footer_logo > img{
+footer > .footer-container > .footer_logo > img{
     width: auto;
     height: 100px;
     margin: 10px;
 }
-footer > .footer_container > .footer_logo::after{
+footer > .footer-container > .footer_logo::after{
     content: " ";
     display: block;
     width: 3px;
@@ -36,18 +36,18 @@ footer > .footer_container > .footer_logo::after{
     transform: rotate(20deg);
     margin-left: 25px;
 }
-footer > .footer_container > .redes{
+footer > .footer-container > .networks{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer > .footer_container > .redes > ul{
+footer > .footer-container > .networks > ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 10px;
 }
-footer > .footer_container > .redes > ul > li{
+footer > .footer-container > .networks > ul > li{
     margin: 0 10px;
     padding: 10px;
     border-bottom: 1px solid transparent;
@@ -55,15 +55,15 @@ footer > .footer_container > .redes > ul > li{
     cursor: pointer;
     transition: border-bottom 0.3s ease-in-out;
 }
-footer > .footer_container > .redes > ul > li a{
+footer > .footer-container > .networks > ul > li a{
     text-decoration: none;
     color: var(--color3);
     font-size: 1.8em;
 }
-footer > .footer_container > .redes > ul > li:hover{
+footer > .footer-container > .networks > ul > li:hover{
     border-bottom: 1px solid var(--color1);
 }
-footer > .footer_container > .redes > ul > li:hover > a{
+footer > .footer-container > .networks > ul > li:hover > a{
     color: var(--color1);
 }
 
