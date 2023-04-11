@@ -71,83 +71,91 @@ class componentes
     function footer() {
         return '
         <footer>
-        <div class="footer-container">
-            <div class="logo">
-                <img src="../assets/img/logo.png" alt="logo">
-            </div>
-            
-            <div clas="footer-links">
-                <div>
-                    <h1>Empresa</h1>
-                    <a href="#" class="wetaxi-link-btn">Conocenos</a>
-                    <a href="#" class="wetaxi-link-btn">Mecanica</a>
-                    <a href="#" class="wetaxi-link-btn">Equipamiento</a>
-                    <a href="#" class="wetaxi-link-btn">Servicios</a>
-                    <a href="#" class="wetaxi-link-btn">Contacto</a>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="../assets/img/logo.png" alt="logo">
                 </div>
-                <div>
-                    <h1>Reservas</h1>
-                    <a href="#" class="wetaxi-link-btn">Cambio de tarifa</a>
-                    <a href="#" class="wetaxi-link-btn">Mecanica</a>
-                    <a href="#" class="wetaxi-link-btn">Accesorios</a>
-                    <a href="#" class="wetaxi-link-btn">Limpieza</a>
-                </div>
-                <div>
-                    <h1>Escuela</h1>
-                    <a href="#" class="wetaxi-link-btn">Conocenos</a>
-                    <a href="#" class="wetaxi-link-btn">Mecanica</a>
-                    <a href="#" class="wetaxi-link-btn">Equipamiento</a>
-                    <a href="#" class="wetaxi-link-btn">Servicios</a>
-                    <a href="#" class="wetaxi-link-btn">Contacto</a>
-                </div>
-                <div>
-                    <h1>Escuela</h1>
-                    <a href="#" class="wetaxi-link-btn">Conocenos</a>
-                    <a href="#" class="wetaxi-link-btn">Mecanica</a>
-                    <a href="#" class="wetaxi-link-btn">Equipamiento</a>
-                    <a href="#" class="wetaxi-link-btn">Servicios</a>
-                    <a href="#" class="wetaxi-link-btn">Contacto</a>
-                </div>
-            </div>
-
-            <div class="social">
-                <div class="wetaxi-app">
-                    <a href="#" class="wetaxi-link-btn">
-                        <i class="bi bi-google-play"></i>
-                        <div class="wetaxi-link-text">
-                            <span>Descargar en</span>
-                            <h5>Google Play</h5>
-                        </div>
-                    </a>
-                    <a href="#" class="wetaxi-link-btn">
-                        <i class="bi bi-apple"></i>
-                        <div class="wetaxi-link-text">
-                            <span>Descargar en</span>
-                            <h5>App Store</h5>
-                        </div>
-                    </a>
+                
+                <div clas="footer-links">
+                    <ul class="links">
+                        <li>
+                            <h1>Empresa</h1>
+                            <a class="a" href="#">Conocenos</a>
+                            <a class="a" href="#">Mecanica</a>
+                            <a class="a" href="#">Equipamiento</a>
+                            <a class="a" href="#">Servicios</a>
+                            <a class="a" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="links">
+                        <li>
+                            <h1>Reservas</h1>
+                            <a href="#">Cambio de tarifa</a>
+                            <a href="#">Mecanica</a>
+                            <a href="#">Accesorios</a>
+                            <a href="#">Limpieza</a>
+                        </li>
+                    </ul>
+                    <ul class="links">
+                        <li>
+                            <h1>Escuela</h1>
+                            <a href="#">Conocenos</a>
+                            <a href="#">Mecanica</a>
+                            <a href="#">Equipamiento</a>
+                            <a href="#">Servicios</a>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="links">
+                        <li>
+                            <h1>Escuela</h1>
+                            <a href="#">Conocenos</a>
+                            <a href="#">Mecanica</a>
+                            <a href="#">Equipamiento</a>
+                            <a href="#">Servicios</a>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="networks">
-                    <ul>
-                        <li><a href="https://www.facebook.com/madridurbanwetaxi/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="https://www.facebook.com/wetaximadridurban/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/wetaximadrid/?hl=es"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/Wetaximadrid"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="https://www.tiktok.com/@wetaxiurban"><i class="bi bi-tiktok"></i></a></li>
+                <div class="social">
+                    <div class="wetaxi-app">
+                        <a href="#" class="wetaxi-link-btn">
+                            <i class="bi bi-google-play"></i>
+                            <div class="wetaxi-link-text">
+                                <span>Descargar en</span>
+                                <h5>Google Play</h5>
+                            </div>
+                        </a>
+                        <a href="#" class="wetaxi-link-btn">
+                            <i class="bi bi-apple"></i>
+                            <div class="wetaxi-link-text">
+                                <span>Descargar en</span>
+                                <h5>App Store</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="networks">
+                        <ul>
+                            <li><a href="https://www.facebook.com/madridurbanwetaxi/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/wetaximadridurban/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/wetaximadrid/?hl=es"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/Wetaximadrid"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@wetaxiurban"><i class="bi bi-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>© 2021 - Todos los derechos reservados</p>
+                    <ul class="req">
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Accesibilidad</a></li>
+                        <li><a href="#">Condiciones</a></li>                    
                     </ul>
                 </div>
             </div>
-
-            <div class="copyright">
-                <p>© 2021 - Todos los derechos reservados</p>
-                <ul>
-                    <li><a href="#">Privacidad</a></li>
-                    <li><a href="#">Accesibilidad</a></li>
-                    <li><a href="#">Condiciones</a></li>                    
-                </ul>
-            </div>
-        </div>
         </footer>
         ';
     }
