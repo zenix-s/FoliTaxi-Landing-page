@@ -71,7 +71,18 @@ class componentes
     function footer() {
         return '
         <footer>
-        <p>© 2021 - Todos los derechos reservados</p>
+        <div class="footer_container">
+            <p>© 2021 - Todos los derechos reservados</p>
+            <div class="redes">
+                <ul>
+                    <li><a href="https://www.facebook.com/madridurbanwetaxi/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/wetaximadridurban/?locale=es_ES"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/wetaximadrid/?hl=es"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/Wetaximadrid"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@wetaxiurban"><i class="bi bi-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
         </footer>
         ';
     }
