@@ -11,10 +11,6 @@
   font-family: "Poppins", sans-serif;
   /* outline: 1px solid red; */
 }
-.fixed-header{
-  position: fixed !important;
-
-}
 header {
   display: flex;
   position: sticky;
@@ -79,6 +75,9 @@ header > .sesion {
   }
 }
 @media screen and (max-width: 1050px) {
+  .fixed-header{
+    position: relative !important;
+  }
   header {
     flex-direction: column;
     align-items: flex-start;
