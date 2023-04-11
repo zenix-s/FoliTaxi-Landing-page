@@ -27,9 +27,25 @@ $componentes = new componentes();
     <section class="containerSlider">
       <div class="information-container">
         <div class="information">
-          <h2>¿Quienes somos?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-          <a href="#">Saber mas</a>
+          <div class="information-buttons">
+            <div class="information-button">
+              <button>Button 1</button>
+            </div>
+            <div class="information-button">
+              <button>Button 2</button>
+            </div>
+            <div class="information-button">
+              <button>Button 3</button>
+            </div>
+          </div>
+          <div class="information-body">
+            <h2>
+              Esto es un titulo de lo mas importante
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
+            </p>
+          </div>
         </div>
       </div>
       <div class="sliderWrapper" id="sliderWrapper">
