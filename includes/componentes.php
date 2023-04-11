@@ -7,7 +7,7 @@ class componentes
     function header()
     {
         return '
-        <header>
+        <header class="header-sticky">
             <div class="logo">
             <img src="../assets/img/logo.png" alt="logo">
             </div>
@@ -78,7 +78,7 @@ class componentes
     function subheader($title, $description, $description2, $description3, $image)
     {
         return '
-        <div class="header-image" style="background-image:src('.$image.');">
+        <div class="header-image" style="background-image:url('.$image.');">
         <div class="header-text">  
             <h1>' . $title . '</h1>
             <p> ' . $description .  ' </p>
