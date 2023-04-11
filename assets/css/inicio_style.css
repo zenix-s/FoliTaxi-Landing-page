@@ -76,6 +76,25 @@
   z-index: 50;
 }
 
+.information-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.information-button{
+  width: 100%;
+}
+.information-button > button{
+  width: 65%;
+  aspect-ratio: 1/0.8;
+  background: white;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+.information-button > .active{
+  border-bottom: 3px solid red;
+}
+
 .containerSlider > .btn-container {
   display: flex;
   flex-direction: column;

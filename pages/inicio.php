@@ -29,13 +29,13 @@ $componentes = new componentes();
         <div class="information">
           <div class="information-buttons">
             <div class="information-button">
-              <button>Button 1</button>
+              <button onclick="goToSlide(1)" class="slide-button">Button 1</button>
             </div>
             <div class="information-button">
-              <button>Button 2</button>
+              <button onclick="goToSlide(2)" class="slide-button">Button 2</button>
             </div>
             <div class="information-button">
-              <button>Button 3</button>
+              <button onclick="goToSlide(3)" class="slide-button">Button 3</button>
             </div>
           </div>
           <div class="information-body">
@@ -49,13 +49,13 @@ $componentes = new componentes();
         </div>
       </div>
       <div class="sliderWrapper" id="sliderWrapper">
-        <div class="sliderCaption" id="1">
+        <div class="sliderCaption" id="slide-1">
           <img class="sliderImg" src="../assets/img/inicio-slider-1.jpeg" alt="slider1">
         </div>
-        <div class="sliderCaption" id="2">
+        <div class="sliderCaption" id="slide-2">
           <img class="sliderImg" src="../assets/img/inicio-slider-2.jpg" alt="slider2">
         </div>
-        <div class="sliderCaption" id="3">
+        <div class="sliderCaption" id="slide-3">
           <img class="sliderImg" src="../assets/img/inicio-slider-3.jpg" alt="slider3">
         </div>
       </div>
