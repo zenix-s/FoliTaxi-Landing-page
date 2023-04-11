@@ -22,7 +22,7 @@ $componentes = new componentes();
   echo $componentes->Header();
 
   echo $componentes->subheader(
-    "MECÁNICA DEL AUTOMÓVIL",
+    "TALLER",
     "Somos una empresa de taxis con taller autorizado para revisiones oficiales.",
     "Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.",
     "Además, ofrecemos servicios como: ",
