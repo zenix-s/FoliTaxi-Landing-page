@@ -18,17 +18,7 @@
     <?php
         echo $componentes->header();
     ?>
-        <!-- asesoria 
-    <div class="header-image">
-        <img src="../assets/img/asesoria.jpg" alt="Asesoria">
-        <div class="header-text">  
-            <h1>ASESORÍA</h1>
-            <p>¿Necesitas ayuda con tu licencia de Auto- taxi?</p>
-            <p>En WETAXI MADRID disponemos de un departamento especializado para que no tengas que preocuparte de nada. </p>
-            <p>Departamento labora, fiscal y administarivo, para cubrir todas las necesidades como autónomo o empresa.</p>
-            <button>Servicios</button>
-        </div>
-    </div>-->
+       
     <?php
         echo $componentes ->subheader("ASESORÍA","¿Necesitas ayuda con tu licencia de Auto- taxi?",
         "En WETAXI MADRID disponemos de un departamento especializado para que no tengas que preocuparte de nada. ",

@@ -14,9 +14,9 @@ class componentes
             <div class="navegacion">
             <ul>
                 <li><a href="inicio.php">Inicio</a></li>
-                <li><a href="mecanica.php">Mecanica</a></li>
+                <li><a href="mecanica.php">Taller</a></li>
                 <li><a href="reservas.php">Reservas</a></li>
-                <li><a href="asesoria.php">Asesoria</a></li>
+                <li><a href="asesoria.php">AsesorÍa</a></li>
                 <li><a href="equipamiento.php">Equipamiento</a></li>
             </ul>
             </div>
@@ -60,7 +60,7 @@ class componentes
     //     <div class="nav_options">
     //         <ul>
     //             <li><a href="index.php">Inicio</a></li>
-    //             <li><a href="index.php">Mecanica</a></li>
+    //             <li><a href="index.php">Taller</a></li>
     //             <li><a href="index.php">Reservas</a></li>
     //             <li><a href="index.php">asesoria</a></li>
     //         </ul>
@@ -84,7 +84,7 @@ class componentes
             <p> ' . $description .  ' </p>
             <p> ' . $description2 .  ' </p>
             <p> ' . $description3 .  ' </p>
-            <button>Servicios</button>
+            
         </div>
         </div>
         ';
