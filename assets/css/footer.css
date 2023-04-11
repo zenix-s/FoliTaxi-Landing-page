@@ -8,10 +8,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.flex-list{
-  display: flex;
-  flex-direction: column;
+    text-decoration: none;
+    list-style: none;
 }
 footer{
     color: var(--color4);
@@ -19,74 +17,76 @@ footer{
     padding: 20px;
     display: flex;
 }
-footer > .footer-container{
+.footer-container{
     position: relative;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
 }
 /*----- LOGO -----*/
-.footer-container > .footer-logo{
+.footer-logo{
     display: flex;
     align-items: center;
+    padding: 10px;
 }
-.footer-container > .footer-logo > img{
+.footer-logo > img{
     width: auto;
     height: 100px;
     margin: 10px;
 }
 
 /*----- LINKS EMPRESA -----*/
-.footer-container > .footer-links{
+.footer-links{
     display: flex;
-    position: relative;
+    columns: 4;
 }
-.footer-container > .footer-links > .links{
+.footer-links > .links{
     display: flex;
 }
-.links > ul > li > .a{
-    color: #d21b24 !important;
-    list-style: none
+.links > ul > li > a{
+    color: var(--color4);
+}
+.links > ul > li:hover > a{
+    color: var(--color1);
 }
 
 /*----- SOCIAL -----*/
 .social{
     display: flex;
-    
+    justify-content: space-between;
+    padding: 10px;
 }
-.social > .networks{
+.networks{
     display: flex;
     align-items: center;
 }
-.social > .networks > ul{
+.networks > ul{
     display: flex;
     list-style: none;
     margin: 10px;
 }
-.social > .networks > ul > li{
+.networks > ul > li{
     margin: 0 10px;
     padding: 10px;
     border-bottom: 1px solid transparent;
     cursor: pointer;
     transition: border-bottom 0.3s ease-in-out;
 }
-.social > .networks > ul > li a{
+.networks > ul > li a{
     text-decoration: none;
     color: var(--color4);
     font-size: 1.8em;
 }
-.social > .networks > ul > li:hover{
+.networks > ul > li:hover{
     border-bottom: 1px solid var(--color1);
 }
-.social > .networks > ul > li:hover > a{
+.networks > ul > li:hover > a{
     color: var(--color1);
 }
 /*----- APP WETAXI -----*/
 .wetaxi-app{
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
 }
 .wetaxi-link-btn{
     width: 166px;
@@ -97,7 +97,6 @@ footer > .footer-container{
     border-width: 2px;
     border-style: solid;
     border-color: #f2f2f2;
-    text-decoration:none;
     margin: 10px 15px;
 }
 .wetaxi-link-btn > i{
@@ -116,7 +115,7 @@ footer > .footer-container{
     color:#ffffff;
     margin-bottom: 2px;
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .social{
         flex-direction: row;
         align-items: center;
@@ -130,33 +129,29 @@ footer > .footer-container{
 }
 
 /*----- COPYRIGHT -----*/
-.footer-container > .copyright{
+.copyright{
     display: flex;
     font-size: 0.8rem;
     justify-content:space-between;
 }
-.footer-container > .copyright ul{
+.copyright > ul{
     display: flex;
-    
 }
-.footer-container > .copyright ul li{
-    list-style: none;
+.copyright > ul > li{
     margin-right: 20px;
-    
 }
-.footer-container > .copyright ul li a{
+.copyright > ul > li > a{
     color: var(--color4);
-    text-decoration: none;
-    
+}
+.copyright > ul > li:hover > a{
+    color: var(--color1);
 }
 @media screen and (min-width: 768px){
     .copyright{
         flex-direction: row;
         align-items: center;
-        
     }
     .req{
         justify-content: space-between;
-        
     }
 }
