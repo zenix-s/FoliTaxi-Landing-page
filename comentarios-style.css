@@ -13,7 +13,14 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
   }
-
+/*mapa*/
+.map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
   
   /* Center website */
   .main {
