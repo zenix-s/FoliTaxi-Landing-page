@@ -23,7 +23,7 @@ $modals = new modals();
 </head>
 
 <body>
-  
+
   <?php
   echo $modals->LoginModal();
   echo $modals->RegisterModal();
@@ -54,7 +54,7 @@ $modals = new modals();
               </p>
             </div>
             <div class="information-body-buttons">
-              <a href="#" class="information-button" id="slider-anchor" >Saber mas</a> 
+              <a href="#" class="information-button" id="slider-anchor">Saber mas</a>
             </div>
           </div>
         </div>
@@ -72,7 +72,6 @@ $modals = new modals();
       </div>
     </section>
     <section class="servicios-section">
-      <h2>Servicios</h2>
       <div class="services-container">
         <div class="service-container">
           <div class="service">
@@ -182,7 +181,12 @@ $modals = new modals();
             <label for="mensaje">Mensaje</label>
           </div>
           <div class="input-container">
-            <input type="submit" value="Enviar">
+            <button type="submit" value="Enviar">
+              <span>
+                <i class="bi bi-envelope"></i>
+                Enviar
+              </span>
+            </button>
           </div>
         </form>
       </div>
@@ -193,7 +197,7 @@ $modals = new modals();
               <i class="bi bi-telephone"></i>
             </div>
             <div class="datos-contacto-description">
-              <h3>Telefono</h3>
+              <!-- <h3>Telefono</h3> -->
               <p>91.141.2826</p>
             </div>
           </div>
@@ -202,7 +206,7 @@ $modals = new modals();
               <i class="bi bi-whatsapp"></i>
             </div>
             <div class="datos-contacto-description">
-              <h3>Whatsapp</h3>
+              <!-- <h3>Whatsapp</h3> -->
               <p>679.823.295</p>
             </div>
           </div>
@@ -211,18 +215,13 @@ $modals = new modals();
               <i class="bi bi-envelope"></i>
             </div>
             <div class="datos-contacto-description">
-              <h3>Email</h3>
+              <!-- <h3>Email</h3> -->
               <p>info@wetaximadrid.com</p>
             </div>
           </div>
-          <div class="datos-contacto-item">
-            <div class="datos-contacto-icon">
-              <i class="bi bi-geo"></i>
-            </div>
-            <div class="datos-contacto-description">
-              <h3>Ubicacion</h3>
-              <p>Isaac Jiménez, 5 28037 Madrid</p>
-            </div>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12147.022954835604!2d-3.6298012!3d40.4364073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fac4d2806a3%3A0x96b07a0922fb3d17!2sWetaxi%20Madrid%20Taxitronic!5e0!3m2!1ses!2ses!4v1681305476656!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
           </div>
         </div>
     </section>

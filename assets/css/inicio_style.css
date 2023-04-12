@@ -178,6 +178,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin: 150px 0;
 }
 .servicios-section > h2 {
   font-size: 3rem;
@@ -196,6 +197,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 .service {
   width: 100%;
@@ -270,6 +272,8 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  background-color: rgba(227, 224, 224, 0.416);
+  margin: 150px 0;
 }
 .freenow-container {
   display: flex;
@@ -382,7 +386,12 @@
 }
 .formulario-contacto-container > h2 {
   font-size: 2rem;
+  width: 100%;
+  text-align: center;
   margin-bottom: 20px;
+  color: #363643;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 .formulario-contacto-container > form {
   display: flex;
@@ -414,6 +423,13 @@
   }
 }
 
+.datos-contacto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+}
 
 .datos-contacto-item {
   display: flex;
@@ -421,12 +437,23 @@
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
+  color: white;
 }
 .datos-contacto-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  /* background-color: rgba(0, 0, 0); */
+  color: var(--color4);
   padding: 15px;
   border-radius: 50%;
   font-size: 1.3em;
 }
 
+.map-container{
+  width: 100%;
+  height: 100%;
+}
+
+.map-container > iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
