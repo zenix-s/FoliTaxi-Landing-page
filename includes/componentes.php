@@ -79,8 +79,8 @@ class componentes
                 
                 <div clas="footer-links">
                     <div class="links">
+                        <h1>Empresa</h1>
                         <ul>
-                            <h1>Empresa</h1>
                             <li><a class="a" href="#">Conocenos</a></li>
                             <li><a class="a" href="#">Mecanica</a></li>
                             <li><a class="a" href="#">Equipamiento</a></li>
@@ -89,8 +89,8 @@ class componentes
                         </ul>
                     </div>
                     <div class="links">
+                        <h1>Reservas</h1>
                         <ul>
-                            <h1>Reservas</h1>
                             <li><a href="#">Cambio de tarifa</a></li>
                             <li><a href="#">Mecanica</a></li>
                             <li><a href="#">Accesorios</a></li>
