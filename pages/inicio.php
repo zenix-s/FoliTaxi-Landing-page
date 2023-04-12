@@ -54,7 +54,7 @@ $modals = new modals();
               </p>
             </div>
             <div class="information-body-buttons">
-              <a href="#" class="information-button" id="slider-anchor">Saber mas</a>
+              <a href="#" class="information-button" id="slider-anchor" >Saber mas</a> 
             </div>
           </div>
         </div>
