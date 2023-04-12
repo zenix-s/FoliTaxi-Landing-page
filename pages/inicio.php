@@ -17,9 +17,32 @@ $componentes = new componentes();
   <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/css/general.css">
+  <link rel="stylesheet" href="../assets/css/login-form-style.css">
 </head>
 
 <body>
+  <section class="section-login-form-container">
+    <div class="login-form-container">
+      <form action="">
+        <div class="login-header">
+          <h2>Login Header</h2>
+        </div>
+        <div class="login-inputs">
+          <div class="input-container">
+            <input type="email" name="email" placeholder="Email">
+            <label for="">Email</label>
+          </div>
+          <div class="input-container">
+            <input type="password" name="password" placeholder="Password">
+            <label for="">Password</label>
+          </div>
+        </div>
+        <div class="login-submit">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </section>
   <?php
   echo $componentes->header();
   ?>
