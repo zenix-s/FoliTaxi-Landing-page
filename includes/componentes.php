@@ -79,44 +79,44 @@ class componentes
                 
                 <div clas="footer-links">
                     <div class="links">
+                        <h1>Empresa</h1>
                         <ul>
-                            <h1>Empresa</h1>
-                           <li> <a class="a" href="#">Conocenos</a> </li>
-                           <li> <a class="a" href="#">Mecanica</a> </li>
-                           <li><a class="a" href="#">Equipamiento</a> </li>
-                           <li><a class="a" href="#">Servicios</a> </li>
-                           <li><a class="a" href="#">Contacto</a> </li>
+                            <li><a class="a" href="#">Conocenos</a></li>
+                            <li><a class="a" href="#">Mecanica</a></li>
+                            <li><a class="a" href="#">Equipamiento</a></li>
+                            <li><a class="a" href="#">Servicios</a></li>
+                            <li><a class="a" href="#">Contacto</a></li>
                         </ul>
                     </div>
-                    <ul class="links">
-                        <li>
-                            <h1>Reservas</h1>
-                            <a href="#">Cambio de tarifa</a>
-                            <a href="#">Mecanica</a>
-                            <a href="#">Accesorios</a>
-                            <a href="#">Limpieza</a>
-                        </li>
-                    </ul>
-                    <ul class="links">
-                        <li class="flex-list">
+                    <div class="links">
+                        <h1>Reservas</h1>
+                        <ul>
+                            <li><a href="#">Cambio de tarifa</a></li>
+                            <li><a href="#">Mecanica</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Limpieza</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
                             <h1>Escuela</h1>
-                            <a href="#">Conocenos</a>
-                            <a href="#">Mecanica</a>
-                            <a href="#">Equipamiento</a>
-                            <a href="#">Servicios</a>
-                            <a href="#">Contacto</a>
-                        </li>
-                    </ul>
-                    <ul class="links">
-                        <li>
+                            <li><a href="#">Conocenos</a></li>
+                            <li><a href="#">Mecanica</a></li>
+                            <li><a href="#">Equipamiento</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
                             <h1>Escuela</h1>
-                            <a href="#">Conocenos</a>
-                            <a href="#">Mecanica</a>
-                            <a href="#">Equipamiento</a>
-                            <a href="#">Servicios</a>
-                            <a href="#">Contacto</a>
-                        </li>
-                    </ul>
+                            <li><a href="#">Conocenos</a></li>
+                            <li><a href="#">Mecanica</a></li>
+                            <li><a href="#">Equipamiento</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="social">
