@@ -15,8 +15,6 @@
 
 <body>
 <<<<<<< Updated upstream
-  <div></div>
-=======
   <header>
     <div class="logo">
       <img src="assets/img/logo.png" alt="logo">
@@ -129,18 +127,13 @@
       que recibí desde el primer día que entré por la puerta. Me guiaron en todo el proceso de obtención de la licencia de taxi,
        y me explicaron cada detalle de los trámites necesarios. Además, me ofrecieron un descuento en el taller para la revisión de mi taxi, 
         lo cual me resultó muy conveniente." 
+
       </p>
       <p>
      
       </p>
     </article>
   </div>
-
-
-    
-
-
-  
   <script src="assets/js/header.js"></script>
 >>>>>>> Stashed changes
 </body>
