@@ -22,8 +22,8 @@ class componentes
             </div>
             <div class="sesion">
             <ul>
-                <li><a href="index.php">Iniciar Sesion</a></li>
-                <li><a href="index.php">Registrarse</a></li>
+                <li><button onclick="OpenloginModal()">Iniciar Sesión</button></li>
+                <li><button onclick="OpenregisterModal()" href="index.php">Registrarse</button></li>
             </ul>
             </div>
             <div class="mobile-close-header">

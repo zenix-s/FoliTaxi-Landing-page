@@ -47,10 +47,15 @@ header ul li {
   cursor: pointer;
   transition: border-bottom 0.3s ease-in-out;
 }
-header ul li a {
+header ul li a,
+header ul li button {
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.2em;
 }
 header ul li:hover {
   border-bottom: 1px solid var(--color1);
@@ -126,7 +131,8 @@ header > .sesion {
   header ul li {
     margin: 10px 0;
   }
-  header ul li a {
+  header ul li a,
+  header ul li button {
     font-size: 3em;
     color: #4f4f4f;
     text-transform: uppercase;
