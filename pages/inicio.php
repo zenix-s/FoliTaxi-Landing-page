@@ -106,7 +106,7 @@ $modals = new modals();
             </div>
             <div class="service-description">
               <h3>Asesoria</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+              <p>En WETAXI MADRID disponemos de un departamento especializado para que no tengas que preocuparte de nada.</p>
               <a href="#">Saber mas</a>
             </div>
           </div>
@@ -118,7 +118,7 @@ $modals = new modals();
             </div>
             <div class="service-description">
               <h3>Taller</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+              <p>Ofrecemos precios especiales para TAXI y tenemos ofertas nuevas cada mes.</p>
               <a href="#">Saber mas</a>
             </div>
           </div>

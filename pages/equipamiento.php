@@ -99,53 +99,87 @@ $componentes = new componentes();
 
     <div class="column luminoso">
       <div class="content">
-        <img src="/w3images/cars1.jpg" alt="luminoso" style="width:100%">
+        <div class="img-equipamiento">
+        <img src="../assets/img/TL70B.jpg" alt="TL70B" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4>TL70B: </h4>
         <p>Módulo luminoso pequeño, ligero y con Bluetooth y GPS incorporados, para estar conectado a tu Radiotaxi.</p>
+        </div>
+        
       </div>
     </div>
     <div class="column luminoso">
       <div class="content">
-        <img src="/w3images/cars2.jpg" alt="luminoso" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/TL70B.jpg" alt="TL70B" style="width:250px; height: 100px ;">        
+        </div>
+        <div class="tex-equipamiento">
         <h4>Módulo luminoso Montero Morón: </h4>
         <p>Indicador electrónico digital homologado y de máxima resistencia mecánica y aerodinámica.</p>
+        </div>
+        
       </div>
     </div>
     <div class="column bucle-magnetica">
       <div class="content">
-        <img src="/w3images/people3.jpg" alt="bucle-magnetica" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/bucleMagnetico.jpg" alt="bucleMagnetico" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4> Bucle Magnético</h4>
-        <p>WETAXI MADRID instalará bucles magnéticos en sus taxis en acuerdo con AMPETRONIC para mejorar
+        <p>Mejoran la
           accesibilidad de pasajeros con capacidades auditivas diferentes. La nueva ordenanza del taxi
           en Madrid hace obligatoria su instalación en nuevos vehículos de transporte de pasajeros.</p>
+       
+        </div>
       </div>
     </div>
     <div class="column accesorios">
       <div class="content">
-        <img src="/w3images/people3.jpg" alt="accesorios" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/Taxi-BG40.jpg" alt="Taxi-BG40" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4>Bluetooth GPS BG40:</h4>
         <p>Conectividad Bluetooth y GPS para integrar tu taxímetro con Smart TD.</p>
+        </div>
       </div>
     </div>
     <div class="column accesorios">
       <div class="content">
-        <img src="/w3images/people3.jpg" alt="accesorios" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/pin-pad.jpg" alt="pin-pad" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4>PIN PAD:</h4>
         <p>Dispositivo de pago con tarjeta para integrar con la aplicación Smart TD.</p>
+        </div>
+       
       </div>
     </div>
     <div class="column accesorios">
       <div class="content">
-        <img src="/w3images/people3.jpg" alt="accesorios" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/Impresora-IR32.jpg" alt="Impresora-IR32" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4>Impresora IR32:</h4>
         <p>Impresora térmica de alta resolución y velocidad compatible con todos los taxímetros de Taxitronic.</p>
+        </div>
+        
       </div>
     </div>
     <div class="column accesorios">
       <div class="content">
-        <img src="/w3images/people3.jpg" alt="accesorios" style="width:100%">
+        <div class="img-equipamiento">
+          <img src="../assets/img/tc60e.jpg" alt="tc60e" style="width:250px; height: 100px ;">
+        </div>
+        <div class="tex-equipamiento">
         <h4>Equipo de Seguridad TC60E:</h4>
         <p>Equipo certificado para estar conectado a las centrales de alarmas 112 de Madrid, Galicia y Cataluña.</p>
+        </div>
+        
       </div>
     </div>
     <!-- END GRID -->
