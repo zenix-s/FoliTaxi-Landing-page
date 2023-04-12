@@ -21,6 +21,7 @@ footer{
     position: relative;
     width: 100%;
 }
+
 /*----- LOGO -----*/
 .footer-logo{
     display: flex;
@@ -30,53 +31,55 @@ footer{
 .footer-logo > img{
     width: auto;
     height: 100px;
-    margin: 10px;
+    margin: auto;
 }
 
 /*----- LINKS EMPRESA -----*/
 .footer-links{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }
 .links{
-    columns: 4;
-    flex-basis: 25%;
-    margin-bottom: 40px;    
-}
-.links > h1{
-    margin-bottom: 10px;
+    display: flex;
 }
 .links > ul{
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 10px;
 }
 .links > ul > li{
-    margin-bottom: 5px;
+    margin-top: 15px;
 }
-
-
-
 .links > ul > li > a{
     color: var(--color4);
 }
 .links > ul > li:hover > a{
     color: var(--color1);
 }
-
+@media screen and (max-width: 768px) {
+    .footer-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 450px){
+    .footer-links{
+        grid-template-columns: 1fr;
+    }
+}
 /*----- SOCIAL -----*/
 .social{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
 .networks{
     display: flex;
-    align-items: center;
 }
 .networks > ul{
     display: flex;
-    list-style: none;
     margin: 10px;
 }
 .networks > ul > li{
@@ -87,7 +90,6 @@ footer{
     transition: border-bottom 0.3s ease-in-out;
 }
 .networks > ul > li a{
-    text-decoration: none;
     color: var(--color4);
     font-size: 1.8em;
 }
@@ -102,7 +104,6 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
 }
 .wetaxi-link-btn{
     width: 166px;
@@ -131,16 +132,25 @@ footer{
     color:#ffffff;
     margin-bottom: 2px;
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 850px){
     .social{
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
     }
     .wetaxi-app{
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .networks{
-        justify-content: space-between;
+    .networks ul{
+        display: flex;
+    }
+}
+@media screen and (max-width: 450px){
+    .wetaxi-app{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+    }
+    .networks ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -162,12 +172,13 @@ footer{
 .copyright > ul > li:hover > a{
     color: var(--color1);
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 600px){
     .copyright{
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
     .req{
-        justify-content: space-between;
+        margin-top: 10px;
+        justify-content: space-around;
     }
 }

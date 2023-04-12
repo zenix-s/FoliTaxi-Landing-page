@@ -77,10 +77,10 @@ class componentes
                     <img src="../assets/img/logo.png" alt="logo">
                 </div>
                 
-                <div clas="footer-links">
+                <div class="footer-links">
                     <div class="links">
-                        <h1>Empresa</h1>
                         <ul>
+                            <h1>Empresa</h1>
                             <li><a class="a" href="#">Conocenos</a></li>
                             <li><a class="a" href="#">Mecanica</a></li>
                             <li><a class="a" href="#">Equipamiento</a></li>
@@ -89,8 +89,8 @@ class componentes
                         </ul>
                     </div>
                     <div class="links">
-                        <h1>Reservas</h1>
                         <ul>
+                            <h1>Reservas</h1>
                             <li><a href="#">Cambio de tarifa</a></li>
                             <li><a href="#">Mecanica</a></li>
                             <li><a href="#">Accesorios</a></li>
@@ -104,7 +104,6 @@ class componentes
                             <li><a href="#">Mecanica</a></li>
                             <li><a href="#">Equipamiento</a></li>
                             <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="links">
@@ -144,6 +143,7 @@ class componentes
                             <li><a href="https://www.instagram.com/wetaximadrid/?hl=es"><i class="bi bi-instagram"></i></a></li>
                             <li><a href="https://twitter.com/Wetaximadrid"><i class="bi bi-twitter"></i></a></li>
                             <li><a href="https://www.tiktok.com/@wetaxiurban"><i class="bi bi-tiktok"></i></a></li>
+                            <li><a href="index.php"><i class="bi bi-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>
