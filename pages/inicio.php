@@ -39,12 +39,17 @@ $componentes = new componentes();
             </div>
           </div>
           <div class="information-body">
-            <h2>
-              Esto es un titulo de lo mas importante
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-            </p>
+            <div class="information-body-text">
+              <h2 id="slider-header">
+                Esto es un titulo de lo mas importante
+              </h2>
+              <p id="slider-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
+              </p>
+            </div>
+            <div class="information-body-buttons">
+              <a href="#" class="information-button" id="slider-anchor">Saber mas</a>
+            </div>
           </div>
         </div>
       </div>
@@ -57,18 +62,6 @@ $componentes = new componentes();
         </div>
         <div class="sliderCaption" id="slide-3">
           <img class="sliderImg" src="../assets/img/inicio-slider-3.jpg" alt="slider3">
-        </div>
-      </div>
-      <div class="btn-container left-btn">
-        <div class="btn sliderPrev" id="btnPrev">
-          <span>
-            <i class="bi bi-caret-left"></i>
-          </span>
-        </div>
-      </div>
-      <div class="btn-container right-btn">
-        <div class="btn sliderNext" id="btnNext">
-          <span><i class="bi bi-caret-right"></i></span>
         </div>
       </div>
     </section>
