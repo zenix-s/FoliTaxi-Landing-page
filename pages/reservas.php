@@ -59,11 +59,16 @@
                 </div>
             </div>
         </section>
+        <section>
+          
+
+        </section>
     </main>
 
     <?php
         echo $componentes -> Footer();
     ?>
     <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/servicios.js"></script>
 </body>
 </html>
