@@ -12,14 +12,26 @@
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/reservas.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/subheader.css">
+    <title>RESERVAS</title>
 </head>
 <body>
     <?php
-        echo $componentes -> Header();
+    echo $componentes -> Header();
+ 
+
+    echo $componentes->subheader(
+        "RESERVAS",
+        "En la sección de Equipamiento, presentamos 
+            una selección de productos de alta calidad y ",
+        " tecnología avanzada para mejorar la experiencia de los pasajeros y
+            conductores en los vehículos de taxi.",
+        " ",
+        "../assets/img/oficina.jpg"
+    );
     ?>
-    
     <main>
+        <!--
         <section class="module-container">
             <h1>Reserva ya tu cita</h1>
             <div class="reservas-container">
@@ -58,9 +70,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
-        <div class="row" id="myBtnContainer">
+        <div class="" id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')"> Ver todo </button>
             <button class="btn" onclick="filterSelection('cambioTarifa')"> Cambio de tarifa </button>
             <button class="btn" onclick="filterSelection('taller')"> Taller</button>
@@ -171,6 +183,7 @@
         var current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
+
       });
     }
   </script>

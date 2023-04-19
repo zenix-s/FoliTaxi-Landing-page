@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
 .module-container{
     min-height: 100vh;
     width: 100%;
@@ -45,7 +45,7 @@
 
 .lista-reservas .opcion-reserva{
     width: 250px;
-    /* background-color: var(--color4); */
+    
     background-color: transparent;
     border: 2px solid var(--color1);
     display: flex;
@@ -86,8 +86,14 @@
 .descripcion-reserva{
     width: 100%;
     display: flex;
+}*/
+/*estilos boton reserva */
+#myBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
-/*estilos boton rserva */
 .tex-reserva > .tex-reserva-buttons{
     width: 100%;
     display: flex;
@@ -110,8 +116,20 @@
   .tex-reserva > .tex-reserva-buttons > .information-button:hover{
     background: var(--color3);
   }
-/**/
-.row {
+
+   
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -129,7 +147,7 @@
   /* Create three equal columns that floats next to each other */
   .column {
     margin: 10px 16px ;
-    float: left;
+    float: none;
     width: 33.33%;
     min-width: 300px;
     display: none; /* Hide columns by default */
@@ -178,11 +196,16 @@
   
   /* Add a grey background color on mouse-over */
   .btn:hover {
-    background-color: #fab676;
+    background-color: #ddd;
   }
   
   /* Add a dark background color to the active button */
+
   .btn.active {
     background-color: #ec8b30;
-     color: white;
+    color: white;
+   
+
   }
+ 
+  

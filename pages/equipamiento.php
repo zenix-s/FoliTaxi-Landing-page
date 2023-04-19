@@ -11,6 +11,7 @@ $componentes = new componentes();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/header.css">
   <link rel="stylesheet" href="../assets/css/subheader.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="stylesheet" href="../assets/css/equipamiento-style.css">
   <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
   <title>EQUIPAMIENTO</title>
@@ -184,7 +185,9 @@ $componentes = new componentes();
     </div>
     <!-- END GRID -->
   </div>
-
+  <?php
+  echo $componentes->footer();
+  ?>
   <script>
     filterSelection("all") // Execute the function and show all columns
     function filterSelection(c) {

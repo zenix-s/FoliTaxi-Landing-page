@@ -200,6 +200,9 @@ $componentes = new componentes();
       </div>
     </div>
   </div> <!--Fin  menu acordeon-->
+  <?php
+  echo $componentes->footer();
+  ?>
   <script>
     // Obtener todos los elementos con la clase header-item
     const headerItems = document.querySelectorAll('.header-item');
